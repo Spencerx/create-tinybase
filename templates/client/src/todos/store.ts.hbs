@@ -45,8 +45,7 @@ todos: {
 
         const persister = createLocalPersister(store, STORE_ID);
         persister.load().then(() => {
-        persister.startAutoSave();
-        resolveReady();
+        persister.startAutoSave().then(resolveReady);
         });
       {{/if}}
       {{#if persistSqlite}}
@@ -61,8 +60,7 @@ todos: {
         getDb().then(({sqlite3, db}) => {
         const persister = createSqliteWasmPersister(store, sqlite3, db, STORE_ID);
         persister.load().then(() => {
-        persister.startAutoSave();
-        resolveReady();
+        persister.startAutoSave().then(resolveReady);
         });
         });
       {{/if}}
@@ -78,8 +76,7 @@ todos: {
         getPgLite().then((pgLite) => {
         createPglitePersister(store, pgLite, STORE_ID).then((persister) => {
         persister.load().then(() => {
-        persister.startAutoSave();
-        resolveReady();
+        persister.startAutoSave().then(resolveReady);
         });
         });
         });

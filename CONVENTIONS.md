@@ -845,15 +845,9 @@ import {describe, test, beforeAll, afterAll, expect} from 'vitest';
 import {} from /* common utilities */ './common';
 
 // Define combinations
-const combinations = [
-  /* ... */
-];
-const persistenceCombinations = [
-  /* ... */
-];
-const syncCombinations = [
-  /* ... */
-];
+const combinations = [/* ... */];
+const persistenceCombinations = [/* ... */];
+const syncCombinations = [/* ... */];
 
 // Test functions
 async function testApp(page: Page) {

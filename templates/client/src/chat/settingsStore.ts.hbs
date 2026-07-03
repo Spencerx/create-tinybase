@@ -38,8 +38,7 @@ createStore(){{#if schemas}}
 
         const settingsPersister = createLocalPersister(settingsStore, STORE_ID);
         settingsPersister.load([{}, DEFAULT_VALUES]).then(() => {
-        settingsPersister.startAutoSave();
-        resolveSettingsReady();
+        settingsPersister.startAutoSave().then(resolveSettingsReady);
         });
       {{/if}}
       {{#if persistSqlite}}
@@ -54,8 +53,7 @@ createStore(){{#if schemas}}
         getDb().then(({sqlite3, db}) => {
         const settingsPersister = createSqliteWasmPersister(settingsStore, sqlite3, db, STORE_ID);
         settingsPersister.load([{}, DEFAULT_VALUES]).then(() => {
-        settingsPersister.startAutoSave();
-        resolveSettingsReady();
+        settingsPersister.startAutoSave().then(resolveSettingsReady);
         });
         });
       {{/if}}
@@ -71,8 +69,7 @@ createStore(){{#if schemas}}
         getPgLite().then((pgLite) => {
         createPglitePersister(settingsStore, pgLite, STORE_ID).then((settingsPersister) => {
         settingsPersister.load([{}, DEFAULT_VALUES]).then(() => {
-        settingsPersister.startAutoSave();
-        resolveSettingsReady();
+        settingsPersister.startAutoSave().then(resolveSettingsReady);
         });
         });
         });

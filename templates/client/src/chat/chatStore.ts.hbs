@@ -44,8 +44,7 @@ createMergeableStore(){{#if schemas}}
 
         const chatPersister = createLocalPersister(chatStore, STORE_ID);
         chatPersister.load().then(() => {
-        chatPersister.startAutoSave();
-        resolveChatReady();
+        chatPersister.startAutoSave().then(resolveChatReady);
         });
       {{/if}}
       {{#if persistSqlite}}
@@ -60,8 +59,7 @@ createMergeableStore(){{#if schemas}}
         getDb().then(({sqlite3, db}) => {
         const chatPersister = createSqliteWasmPersister(chatStore, sqlite3, db, STORE_ID);
         chatPersister.load().then(() => {
-        chatPersister.startAutoSave();
-        resolveChatReady();
+        chatPersister.startAutoSave().then(resolveChatReady);
         });
         });
       {{/if}}
@@ -77,8 +75,7 @@ createMergeableStore(){{#if schemas}}
         getPgLite().then((pgLite) => {
         createPglitePersister(chatStore, pgLite, STORE_ID).then((chatPersister) => {
         chatPersister.load().then(() => {
-        chatPersister.startAutoSave();
-        resolveChatReady();
+        chatPersister.startAutoSave().then(resolveChatReady);
         });
         });
         });

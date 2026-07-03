@@ -51,8 +51,7 @@ gameStatus: 'playing',
 
         const persister = createLocalPersister(store, STORE_ID);
         persister.load().then(() => {
-        persister.startAutoSave();
-        resolveReady();
+        persister.startAutoSave().then(resolveReady);
         });
       {{/if}}
       {{#if persistSqlite}}
@@ -67,8 +66,7 @@ gameStatus: 'playing',
         getDb().then(({sqlite3, db}) => {
         const persister = createSqliteWasmPersister(store, sqlite3, db, STORE_ID);
         persister.load().then(() => {
-        persister.startAutoSave();
-        resolveReady();
+        persister.startAutoSave().then(resolveReady);
         });
         });
       {{/if}}
@@ -84,8 +82,7 @@ gameStatus: 'playing',
         getPgLite().then((pgLite) => {
         createPglitePersister(store, pgLite, STORE_ID).then((persister) => {
         persister.load().then(() => {
-        persister.startAutoSave();
-        resolveReady();
+        persister.startAutoSave().then(resolveReady);
         });
         });
         });
