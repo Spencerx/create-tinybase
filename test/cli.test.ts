@@ -1,5 +1,5 @@
 import {Buffer} from 'buffer';
-import {ChildProcess, spawn} from 'child_process';
+import {ChildProcess, execFileSync, spawn} from 'child_process';
 import {mkdir, readdir, readFile, rm} from 'fs/promises';
 import {dirname, join} from 'path';
 import {fileURLToPath} from 'url';
@@ -655,6 +655,31 @@ describe('create-tinybase', () => {
 
   afterAll(async () => {
     await rm(TEST_DIR, {recursive: true, force: true});
+  });
+
+  it('describes its agent-friendly CLI contract', () => {
+    const cliPath = join(__dirname, '..', 'dist', 'cli.js');
+    const help = execFileSync('node', [cliPath, '--help'], {encoding: 'utf-8'});
+    const catalog = JSON.parse(
+      execFileSync('node', [cliPath, '--list-options'], {encoding: 'utf-8'}),
+    );
+
+    expect(help).toContain('--non-interactive');
+    expect(help).toContain('--installAndRun false');
+    expect(catalog.options.appType.values).toEqual([
+      'todos',
+      'chat',
+      'drawing',
+      'charting',
+      'game',
+    ]);
+    expect(catalog.options.framework.values).toEqual([
+      'vanilla',
+      'react',
+      'solid',
+      'svelte',
+    ]);
+    expect(catalog.options.installAndRun.recommendedForAgents).toBe(false);
   });
 
   for (const combo of combinations) {

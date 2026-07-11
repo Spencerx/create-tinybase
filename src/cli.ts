@@ -13,6 +13,100 @@ import {fileURLToPath} from 'url';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const templateRoot = join(__dirname, 'templates');
 
+const APP_TYPES = [
+  {title: 'Todo app', value: 'todos'},
+  {title: 'Chat app', value: 'chat'},
+  {title: 'Drawing app', value: 'drawing'},
+  {title: 'Charting app', value: 'charting'},
+  {title: 'Tic-tac-toe game', value: 'game'},
+] as const;
+const LANGUAGES = [
+  {title: 'TypeScript', value: 'typescript'},
+  {title: 'JavaScript', value: 'javascript'},
+] as const;
+const FRAMEWORKS = [
+  {title: 'Vanilla', value: 'vanilla'},
+  {title: 'React', value: 'react'},
+  {title: 'Solid', value: 'solid'},
+  {title: 'Svelte', value: 'svelte'},
+] as const;
+const SYNC_TYPES = [
+  {title: 'None', value: 'none'},
+  {title: 'Via remote demo server (stateless)', value: 'remote'},
+  {title: 'Via local node server (stateless)', value: 'node'},
+  {
+    title: 'Via local DurableObjects server (stateful)',
+    value: 'durable-objects',
+  },
+] as const;
+const PERSISTENCE_TYPES = [
+  {title: 'None', value: 'none'},
+  {title: 'Local Storage', value: 'local-storage'},
+  {title: 'SQLite', value: 'sqlite'},
+  {title: 'PGlite', value: 'pglite'},
+] as const;
+
+const values = <Value extends string>(
+  choices: ReadonlyArray<{value: Value}>,
+): Value[] => choices.map(({value}) => value);
+
+const optionCatalog = {
+  command: 'npm create tinybase@latest --',
+  nonInteractiveFlag: '--non-interactive',
+  options: {
+    projectName: {type: 'string', required: true},
+    appType: {values: values(APP_TYPES), required: true},
+    language: {values: values(LANGUAGES), required: true},
+    framework: {
+      values: values(FRAMEWORKS),
+      requiredUnless: {appType: 'charting'},
+    },
+    tinyWidgets: {
+      values: [true, false],
+      appliesWhenAny: [{framework: 'react'}, {appType: 'charting'}],
+    },
+    schemas: {values: [true, false], appliesWhen: {language: 'typescript'}},
+    syncType: {values: values(SYNC_TYPES), required: true},
+    persistenceType: {values: values(PERSISTENCE_TYPES), required: true},
+    prettier: {values: [true, false], required: true},
+    eslint: {values: [true, false], required: true},
+    installAndRun: {
+      values: [true, false],
+      recommendedForAgents: false,
+    },
+  },
+};
+
+const printHelp = () => {
+  console.log(`create-tinybase
+
+Interactively scaffold a local-first TinyBase application:
+  npm create tinybase@latest
+
+Run non-interactively by providing every applicable option:
+  npm create tinybase@latest -- --non-interactive \\
+    --projectName my-app --appType todos --language typescript \\
+    --framework react --tinyWidgets false --schemas true \\
+    --syncType none --persistenceType local-storage \\
+    --prettier true --eslint true --installAndRun false
+
+Agent and automation commands:
+  --list-options  Print the current option catalog as JSON
+  --help          Show this help
+
+Use --installAndRun false for unattended generation.`);
+};
+
+const args = process.argv.slice(2);
+if (args.includes('--help') || args.includes('-h')) {
+  printHelp();
+  process.exit(0);
+}
+if (args.includes('--list-options')) {
+  console.log(JSON.stringify(optionCatalog, null, 2));
+  process.exit(0);
+}
+
 const registerSharedPartials = () => {
   const processTemplate = TemplateEngine.prototype.processTemplate;
   const partials = new Map<string, string>();
@@ -72,23 +166,14 @@ const config = {
       type: 'select' as const,
       name: 'appType',
       message: 'App type:',
-      choices: [
-        {title: 'Todo app', value: 'todos'},
-        {title: 'Chat app', value: 'chat'},
-        {title: 'Drawing app', value: 'drawing'},
-        {title: 'Charting app', value: 'charting'},
-        {title: 'Tic-tac-toe game', value: 'game'},
-      ],
+      choices: [...APP_TYPES],
       initial: 0,
     },
     {
       type: 'select' as const,
       name: 'language',
       message: 'Language:',
-      choices: [
-        {title: 'TypeScript', value: 'typescript'},
-        {title: 'JavaScript', value: 'javascript'},
-      ],
+      choices: [...LANGUAGES],
       initial: 0,
     },
     {
@@ -96,12 +181,7 @@ const config = {
         answers.appType === 'charting' ? null : ('select' as const),
       name: 'framework',
       message: 'Framework:',
-      choices: [
-        {title: 'Vanilla', value: 'vanilla'},
-        {title: 'React', value: 'react'},
-        {title: 'Solid', value: 'solid'},
-        {title: 'Svelte', value: 'svelte'},
-      ],
+      choices: [...FRAMEWORKS],
       initial: 0,
     },
     {
@@ -124,27 +204,14 @@ const config = {
       type: 'select' as const,
       name: 'syncType',
       message: 'Synchronization:',
-      choices: [
-        {title: 'None', value: 'none'},
-        {title: 'Via remote demo server (stateless)', value: 'remote'},
-        {title: 'Via local node server (stateless)', value: 'node'},
-        {
-          title: 'Via local DurableObjects server (stateful)',
-          value: 'durable-objects',
-        },
-      ],
+      choices: [...SYNC_TYPES],
       initial: 1,
     },
     {
       type: 'select' as const,
       name: 'persistenceType',
       message: 'Persistence:',
-      choices: [
-        {title: 'None', value: 'none'},
-        {title: 'Local Storage', value: 'local-storage'},
-        {title: 'SQLite', value: 'sqlite'},
-        {title: 'PGlite', value: 'pglite'},
-      ],
+      choices: [...PERSISTENCE_TYPES],
       initial: 1,
     },
     {
@@ -330,6 +397,7 @@ const config = {
       persistSqlite,
       persistPglite,
       needsViteConfig,
+      appSurface,
       frameworkName,
       clientFrameworkDescription,
       entryFileDescription,
@@ -378,6 +446,11 @@ const config = {
     {
       template: 'README.md.hbs',
       output: 'README.md',
+      prettier: true,
+    },
+    {
+      template: 'AGENTS.md.hbs',
+      output: 'AGENTS.md',
       prettier: true,
     },
   ],

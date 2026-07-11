@@ -28,6 +28,39 @@ This will prompt you with questions to configure your new TinyBase app:
 - **Prettier** - Include Prettier for code formatting
 - **ESLint** - Include ESLint for code linting
 
+### Coding Agents And Automation
+
+Coding agents can inspect the current generator contract without relying on
+training-time knowledge:
+
+```bash
+npm create tinybase@latest -- --list-options
+```
+
+They can then generate a project non-interactively by providing every
+applicable option:
+
+```bash
+npm create tinybase@latest -- \
+  --non-interactive \
+  --projectName my-tinybase-app \
+  --appType todos \
+  --language typescript \
+  --framework react \
+  --tinyWidgets false \
+  --schemas true \
+  --syncType none \
+  --persistenceType local-storage \
+  --prettier true \
+  --eslint true \
+  --installAndRun false
+```
+
+Use `--installAndRun false` for unattended generation. Each generated project
+contains an architecture-specific `AGENTS.md` alongside its README so that an
+agent can understand the selected Store, persistence, synchronization, and UI
+choices before editing the app.
+
 After creating your project:
 
 ```bash
