@@ -8,7 +8,10 @@
 {{addImport "import {Message} from './Message';"}}
 
 export const Messages = () => {
-const sortedIds = useSortedRowIds('messages', 'timestamp', false, 0, undefined, STORE_ID);
+const sortedIds = useSortedRowIds(
+  {tableId: 'messages', cellId: 'timestamp'},
+  STORE_ID,
+);
 
 return (
 <div id="messages">

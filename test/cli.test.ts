@@ -480,6 +480,14 @@ const combinations: Combination[] = [
     name: 'js-react-todos-durable-objects',
   },
   {
+    language: 'typescript',
+    framework: 'react',
+    appType: 'todos',
+    syncType: 'durable-objects',
+    persistenceType: 'sqlite',
+    name: 'ts-react-todos-durable-objects',
+  },
+  {
     language: 'javascript',
     framework: 'react',
     appType: 'charting',

@@ -29,7 +29,8 @@ initial in-memory data does not overwrite persisted data during startup.
 
 - \`README.md\` explains how to run the generated project.
 - \`client/src/Store.jsx\` configures the primary
-  TinyBase Store, persistence.
+  TinyBase Store.
+- The primary Store file also initializes persistence.
 - \`client/src/App.jsx\` contains the main application UI.
 
 ## Working Method
@@ -181,11 +182,11 @@ with the store.
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3",
+    "vite": "^8.1.4",
     "@vitejs/plugin-react": "^6.0.3"
   },
   "dependencies": {
-    "tinybase": "^9.0.0",
+    "tinybase": "^9.2.0",
     "react": "^19.2.7",
     "react-dom": "^19.2.7"
   }
@@ -864,7 +865,8 @@ initial in-memory data does not overwrite persisted data during startup.
 
 - \`README.md\` explains how to run the generated project.
 - \`client/src/ChatStore.jsx\` configures the primary
-  TinyBase Store, persistence.
+  TinyBase Store.
+- The primary Store file also initializes persistence.
 - \`client/src/App.jsx\` contains the main application UI.
 
 ## Working Method
@@ -1017,11 +1019,11 @@ with the store.
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3",
+    "vite": "^8.1.4",
     "@vitejs/plugin-react": "^6.0.3"
   },
   "dependencies": {
-    "tinybase": "^9.0.0",
+    "tinybase": "^9.2.0",
     "react": "^19.2.7",
     "react-dom": "^19.2.7"
   }
@@ -1692,7 +1694,8 @@ initial in-memory data does not overwrite persisted data during startup.
 
 - \`README.md\` explains how to run the generated project.
 - \`client/src/ChatStore.jsx\` configures the primary
-  TinyBase Store, persistence.
+  TinyBase Store.
+- The primary Store file also initializes persistence.
 - \`client/src/App.jsx\` contains the main application UI.
 
 ## Working Method
@@ -1845,11 +1848,11 @@ with the store.
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3",
+    "vite": "^8.1.4",
     "@vitejs/plugin-react": "^6.0.3"
   },
   "dependencies": {
-    "tinybase": "^9.0.0",
+    "tinybase": "^9.2.0",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
     "@sqlite.org/sqlite-wasm": "^3.53.0-build1"
@@ -2618,7 +2621,8 @@ initial in-memory data does not overwrite persisted data during startup.
 
 - \`README.md\` explains how to run the generated project.
 - \`client/src/CanvasStore.jsx\` configures the primary
-  TinyBase Store, persistence.
+  TinyBase Store.
+- The primary Store file also initializes persistence.
 - \`client/src/App.jsx\` contains the main application UI.
 
 ## Working Method
@@ -2771,11 +2775,11 @@ with the store.
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3",
+    "vite": "^8.1.4",
     "@vitejs/plugin-react": "^6.0.3"
   },
   "dependencies": {
-    "tinybase": "^9.0.0",
+    "tinybase": "^9.2.0",
     "react": "^19.2.7",
     "react-dom": "^19.2.7"
   }
@@ -3492,7 +3496,8 @@ initial in-memory data does not overwrite persisted data during startup.
 
 - \`README.md\` explains how to run the generated project.
 - \`client/src/Store.jsx\` configures the primary
-  TinyBase Store, persistence.
+  TinyBase Store.
+- The primary Store file also initializes persistence.
 - \`client/src/App.jsx\` contains the main application UI.
 
 ## Working Method
@@ -3643,11 +3648,11 @@ with the store.
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3",
+    "vite": "^8.1.4",
     "@vitejs/plugin-react": "^6.0.3"
   },
   "dependencies": {
-    "tinybase": "^9.0.0",
+    "tinybase": "^9.2.0",
     "react": "^19.2.7",
     "react-dom": "^19.2.7"
   }
@@ -4293,7 +4298,8 @@ initial in-memory data does not overwrite persisted data during startup.
 
 - \`README.md\` explains how to run the generated project.
 - \`client/src/Store.jsx\` configures the primary
-  TinyBase Store, persistence.
+  TinyBase Store.
+- The primary Store file also initializes persistence.
 - \`client/src/App.jsx\` contains the main application UI.
 
 ## Working Method
@@ -4446,11 +4452,11 @@ with the store.
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3",
+    "vite": "^8.1.4",
     "@vitejs/plugin-react": "^6.0.3"
   },
   "dependencies": {
-    "tinybase": "^9.0.0",
+    "tinybase": "^9.2.0",
     "react": "^19.2.7",
     "react-dom": "^19.2.7"
   }
@@ -5060,7 +5066,9 @@ initial in-memory data does not overwrite persisted data during startup.
 
 - \`README.md\` explains how to run the generated project.
 - \`client/src/Store.jsx\` configures the primary
-  TinyBase Store, persistence, and synchronization.
+  TinyBase Store.
+- The primary Store file also initializes persistence.
+- The primary Store file also initializes synchronization.
 - \`client/src/App.jsx\` contains the main application UI.
 - \`client/src/config.jsx\` contains synchronization configuration.
 - \`server/index.jsx\` contains the synchronization server.
@@ -5267,11 +5275,11 @@ The \`server\` directory contains your Cloudflare Durable Objects WebSocket serv
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3",
+    "vite": "^8.1.4",
     "@vitejs/plugin-react": "^6.0.3"
   },
   "dependencies": {
-    "tinybase": "^9.0.0",
+    "tinybase": "^9.2.0",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
     "reconnecting-websocket": "^4.4.0",
@@ -6021,11 +6029,11 @@ export default {
     "start": "wrangler dev"
   },
   "dependencies": {
-    "tinybase": "^9.0.0"
+    "tinybase": "^9.2.0"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^5.20260703.1",
-    "wrangler": "^4.107.0"
+    "@cloudflare/workers-types": "^5.20260711.1",
+    "wrangler": "^4.110.0"
   }
 }
 ",
@@ -6073,7 +6081,8 @@ initial in-memory data does not overwrite persisted data during startup.
 
 - \`README.md\` explains how to run the generated project.
 - \`client/src/ChatStore.jsx\` configures the primary
-  TinyBase Store, persistence.
+  TinyBase Store.
+- The primary Store file also initializes persistence.
 - \`client/src/App.jsx\` contains the main application UI.
 
 ## Working Method
@@ -6227,11 +6236,11 @@ with the store.
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3",
+    "vite": "^8.1.4",
     "vite-plugin-solid": "^2.11.12"
   },
   "dependencies": {
-    "tinybase": "^9.0.0",
+    "tinybase": "^9.2.0",
     "solid-js": "^1.9.14"
   }
 }
@@ -6473,11 +6482,7 @@ import {Message} from './Message';
 
 export const Messages = () => {
   const sortedIds = useSortedRowIds(
-    'messages',
-    'timestamp',
-    false,
-    0,
-    undefined,
+    {tableId: 'messages', cellId: 'timestamp'},
     STORE_ID,
   );
 
@@ -6898,7 +6903,8 @@ initial in-memory data does not overwrite persisted data during startup.
 
 - \`README.md\` explains how to run the generated project.
 - \`client/src/CanvasStore.jsx\` configures the primary
-  TinyBase Store, persistence.
+  TinyBase Store.
+- The primary Store file also initializes persistence.
 - \`client/src/App.jsx\` contains the main application UI.
 
 ## Working Method
@@ -7052,11 +7058,11 @@ with the store.
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3",
+    "vite": "^8.1.4",
     "vite-plugin-solid": "^2.11.12"
   },
   "dependencies": {
-    "tinybase": "^9.0.0",
+    "tinybase": "^9.2.0",
     "solid-js": "^1.9.14"
   }
 }
@@ -7202,14 +7208,7 @@ export const Canvas = () => {
   let isDrawing = false;
   let currentStrokeId = null;
   const settings = useValues(SETTINGS_STORE_ID);
-  const sortedIds = useSortedRowIds(
-    'strokes',
-    undefined,
-    false,
-    0,
-    undefined,
-    CANVAS_STORE_ID,
-  );
+  const sortedIds = useSortedRowIds({tableId: 'strokes'}, CANVAS_STORE_ID);
   const strokes = useTable('strokes', CANVAS_STORE_ID);
   const store = useStore(CANVAS_STORE_ID);
 
@@ -7775,7 +7774,8 @@ initial in-memory data does not overwrite persisted data during startup.
 
 - \`README.md\` explains how to run the generated project.
 - \`client/src/Store.jsx\` configures the primary
-  TinyBase Store, persistence.
+  TinyBase Store.
+- The primary Store file also initializes persistence.
 - \`client/src/App.jsx\` contains the main application UI.
 
 ## Working Method
@@ -7927,11 +7927,11 @@ with the store.
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3",
+    "vite": "^8.1.4",
     "vite-plugin-solid": "^2.11.12"
   },
   "dependencies": {
-    "tinybase": "^9.0.0",
+    "tinybase": "^9.2.0",
     "solid-js": "^1.9.14"
   }
 }
@@ -8573,7 +8573,8 @@ initial in-memory data does not overwrite persisted data during startup.
 
 - \`README.md\` explains how to run the generated project.
 - \`client/src/Store.jsx\` configures the primary
-  TinyBase Store, persistence.
+  TinyBase Store.
+- The primary Store file also initializes persistence.
 - \`client/src/App.jsx\` contains the main application UI.
 
 ## Working Method
@@ -8727,11 +8728,11 @@ with the store.
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3",
+    "vite": "^8.1.4",
     "vite-plugin-solid": "^2.11.12"
   },
   "dependencies": {
-    "tinybase": "^9.0.0",
+    "tinybase": "^9.2.0",
     "solid-js": "^1.9.14"
   }
 }
@@ -8993,14 +8994,7 @@ import {useSortedRowIds, STORE_ID} from './Store';
 import {TodoItem} from './TodoItem';
 
 export const TodoList = () => {
-  const todoIds = useSortedRowIds(
-    'todos',
-    undefined,
-    false,
-    0,
-    undefined,
-    STORE_ID,
-  );
+  const todoIds = useSortedRowIds({tableId: 'todos'}, STORE_ID);
 
   return (
     <div id="todoList">
@@ -9337,7 +9331,8 @@ initial in-memory data does not overwrite persisted data during startup.
 
 - \`README.md\` explains how to run the generated project.
 - \`client/src/chatStore.js\` configures the primary
-  TinyBase Store, persistence.
+  TinyBase Store.
+- The primary Store file also initializes persistence.
 - \`client/src/App.svelte\` contains the main application UI.
 
 ## Working Method
@@ -9486,12 +9481,12 @@ stays synchronized with the underlying TinyBase store.
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3",
-    "@sveltejs/vite-plugin-svelte": "^7.1.2",
+    "vite": "^8.1.4",
+    "@sveltejs/vite-plugin-svelte": "^7.2.0",
     "svelte": "^5.56.4"
   },
   "dependencies": {
-    "tinybase": "^9.0.0"
+    "tinybase": "^9.2.0"
   }
 }
 ",
@@ -9734,11 +9729,7 @@ stays synchronized with the underlying TinyBase store.
   import {STORE_ID} from './chatStore';
 
   const messageIds = getSortedRowIds(
-    'messages',
-    'timestamp',
-    false,
-    0,
-    undefined,
+    {tableId: 'messages', cellId: 'timestamp'},
     STORE_ID,
   );
 </script>
@@ -10147,7 +10138,8 @@ initial in-memory data does not overwrite persisted data during startup.
 
 - \`README.md\` explains how to run the generated project.
 - \`client/src/canvasStore.js\` configures the primary
-  TinyBase Store, persistence.
+  TinyBase Store.
+- The primary Store file also initializes persistence.
 - \`client/src/App.svelte\` contains the main application UI.
 
 ## Working Method
@@ -10296,12 +10288,12 @@ stays synchronized with the underlying TinyBase store.
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3",
-    "@sveltejs/vite-plugin-svelte": "^7.1.2",
+    "vite": "^8.1.4",
+    "@sveltejs/vite-plugin-svelte": "^7.2.0",
     "svelte": "^5.56.4"
   },
   "dependencies": {
-    "tinybase": "^9.0.0"
+    "tinybase": "^9.2.0"
   }
 }
 ",
@@ -10997,7 +10989,8 @@ initial in-memory data does not overwrite persisted data during startup.
 
 - \`README.md\` explains how to run the generated project.
 - \`client/src/store.js\` configures the primary
-  TinyBase Store, persistence.
+  TinyBase Store.
+- The primary Store file also initializes persistence.
 - \`client/src/App.svelte\` contains the main application UI.
 
 ## Working Method
@@ -11145,12 +11138,12 @@ stays synchronized with the underlying TinyBase store.
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3",
-    "@sveltejs/vite-plugin-svelte": "^7.1.2",
+    "vite": "^8.1.4",
+    "@sveltejs/vite-plugin-svelte": "^7.2.0",
     "svelte": "^5.56.4"
   },
   "dependencies": {
-    "tinybase": "^9.0.0"
+    "tinybase": "^9.2.0"
   }
 }
 ",
@@ -11756,7 +11749,8 @@ initial in-memory data does not overwrite persisted data during startup.
 
 - \`README.md\` explains how to run the generated project.
 - \`client/src/store.js\` configures the primary
-  TinyBase Store, persistence.
+  TinyBase Store.
+- The primary Store file also initializes persistence.
 - \`client/src/App.svelte\` contains the main application UI.
 
 ## Working Method
@@ -11904,12 +11898,12 @@ stays synchronized with the underlying TinyBase store.
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3",
-    "@sveltejs/vite-plugin-svelte": "^7.1.2",
+    "vite": "^8.1.4",
+    "@sveltejs/vite-plugin-svelte": "^7.2.0",
     "svelte": "^5.56.4"
   },
   "dependencies": {
-    "tinybase": "^9.0.0"
+    "tinybase": "^9.2.0"
   }
 }
 ",
@@ -12125,14 +12119,7 @@ stays synchronized with the underlying TinyBase store.
   import TodoItem from './TodoItem.svelte';
   import {STORE_ID} from './store';
 
-  const todoIds = getSortedRowIds(
-    'todos',
-    undefined,
-    false,
-    0,
-    undefined,
-    STORE_ID,
-  );
+  const todoIds = getSortedRowIds({tableId: 'todos'}, STORE_ID);
 </script>
 
 <div id="todoList">
@@ -12471,7 +12458,8 @@ initial in-memory data does not overwrite persisted data during startup.
 
 - \`README.md\` explains how to run the generated project.
 - \`client/src/chatStore.js\` configures the primary
-  TinyBase Store, persistence.
+  TinyBase Store.
+- The primary Store file also initializes persistence.
 - \`client/src/app.js\` contains the main application UI.
 
 ## Working Method
@@ -12616,10 +12604,10 @@ Your data is automatically saved and restored when you reload the page.
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3"
+    "vite": "^8.1.4"
   },
   "dependencies": {
-    "tinybase": "^9.0.0"
+    "tinybase": "^9.2.0"
   }
 }
 ",
@@ -13256,7 +13244,8 @@ initial in-memory data does not overwrite persisted data during startup.
 
 - \`README.md\` explains how to run the generated project.
 - \`client/src/canvasStore.js\` configures the primary
-  TinyBase Store, persistence.
+  TinyBase Store.
+- The primary Store file also initializes persistence.
 - \`client/src/app.js\` contains the main application UI.
 
 ## Working Method
@@ -13401,10 +13390,10 @@ Your data is automatically saved and restored when you reload the page.
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3"
+    "vite": "^8.1.4"
   },
   "dependencies": {
-    "tinybase": "^9.0.0"
+    "tinybase": "^9.2.0"
   }
 }
 ",
@@ -14218,10 +14207,10 @@ The app uses **TinyBase** to manage application state in a reactive data store.
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3"
+    "vite": "^8.1.4"
   },
   "dependencies": {
-    "tinybase": "^9.0.0"
+    "tinybase": "^9.2.0"
   }
 }
 ",
@@ -14893,7 +14882,8 @@ initial in-memory data does not overwrite persisted data during startup.
 
 - \`README.md\` explains how to run the generated project.
 - \`client/src/store.js\` configures the primary
-  TinyBase Store, persistence.
+  TinyBase Store.
+- The primary Store file also initializes persistence.
 - \`client/src/app.js\` contains the main application UI.
 
 ## Working Method
@@ -15037,10 +15027,10 @@ Your data is automatically saved and restored when you reload the page.
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3"
+    "vite": "^8.1.4"
   },
   "dependencies": {
-    "tinybase": "^9.0.0"
+    "tinybase": "^9.2.0"
   }
 }
 ",
@@ -15640,7 +15630,8 @@ initial in-memory data does not overwrite persisted data during startup.
 
 - \`README.md\` explains how to run the generated project.
 - \`client/src/store.js\` configures the primary
-  TinyBase Store, persistence.
+  TinyBase Store.
+- The primary Store file also initializes persistence.
 - \`client/src/app.js\` contains the main application UI.
 
 ## Working Method
@@ -15784,10 +15775,10 @@ Your data is automatically saved and restored when you reload the page.
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3"
+    "vite": "^8.1.4"
   },
   "dependencies": {
-    "tinybase": "^9.0.0"
+    "tinybase": "^9.2.0"
   }
 }
 ",
@@ -16361,7 +16352,8 @@ initial in-memory data does not overwrite persisted data during startup.
 
 - \`README.md\` explains how to run the generated project.
 - \`client/src/Store.tsx\` configures the primary
-  TinyBase Store, persistence.
+  TinyBase Store.
+- The primary Store file also initializes persistence.
 - \`client/src/App.tsx\` contains the main application UI.
 
 ## Working Method
@@ -16513,15 +16505,15 @@ with the store.
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3",
+    "vite": "^8.1.4",
     "typescript": "^6.0.3",
-    "@types/node": "^26.1.0",
+    "@types/node": "^26.1.1",
     "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^6.0.3"
   },
   "dependencies": {
-    "tinybase": "^9.0.0",
+    "tinybase": "^9.2.0",
     "react": "^19.2.7",
     "react-dom": "^19.2.7"
   }
@@ -17243,7 +17235,8 @@ initial in-memory data does not overwrite persisted data during startup.
 
 - \`README.md\` explains how to run the generated project.
 - \`client/src/Store.tsx\` configures the primary
-  TinyBase Store, persistence.
+  TinyBase Store.
+- The primary Store file also initializes persistence.
 - \`client/src/App.tsx\` contains the main application UI.
 
 ## Working Method
@@ -17397,15 +17390,15 @@ with the store.
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3",
+    "vite": "^8.1.4",
     "typescript": "^6.0.3",
-    "@types/node": "^26.1.0",
+    "@types/node": "^26.1.1",
     "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^6.0.3"
   },
   "dependencies": {
-    "tinybase": "^9.0.0",
+    "tinybase": "^9.2.0",
     "react": "^19.2.7",
     "react-dom": "^19.2.7"
   }
@@ -18143,7 +18136,8 @@ initial in-memory data does not overwrite persisted data during startup.
 
 - \`README.md\` explains how to run the generated project.
 - \`client/src/Store.tsx\` configures the primary
-  TinyBase Store, persistence.
+  TinyBase Store.
+- The primary Store file also initializes persistence.
 - \`client/src/App.tsx\` contains the main application UI.
 
 ## Working Method
@@ -18288,19 +18282,19 @@ components still own the app behavior and store interactions.
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3",
+    "vite": "^8.1.4",
     "typescript": "^6.0.3",
-    "@types/node": "^26.1.0",
+    "@types/node": "^26.1.1",
     "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^6.0.3",
-    "@vanilla-extract/vite-plugin": "^5.2.3"
+    "@vanilla-extract/vite-plugin": "^5.2.4"
   },
   "dependencies": {
-    "tinybase": "^9.0.0",
+    "tinybase": "^9.2.0",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
-    "tinywidgets": "^1.6.0"
+    "tinywidgets": "^1.6.2"
   }
 }
 ",
@@ -19020,7 +19014,8 @@ initial in-memory data does not overwrite persisted data during startup.
 
 - \`README.md\` explains how to run the generated project.
 - \`client/src/ChatStore.tsx\` configures the primary
-  TinyBase Store, persistence.
+  TinyBase Store.
+- The primary Store file also initializes persistence.
 - \`client/src/App.tsx\` contains the main application UI.
 
 ## Working Method
@@ -19173,15 +19168,15 @@ with the store.
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3",
+    "vite": "^8.1.4",
     "typescript": "^6.0.3",
-    "@types/node": "^26.1.0",
+    "@types/node": "^26.1.1",
     "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^6.0.3"
   },
   "dependencies": {
-    "tinybase": "^9.0.0",
+    "tinybase": "^9.2.0",
     "react": "^19.2.7",
     "react-dom": "^19.2.7"
   }
@@ -19905,7 +19900,9 @@ initial in-memory data does not overwrite persisted data during startup.
 
 - \`README.md\` explains how to run the generated project.
 - \`client/src/ChatStore.tsx\` configures the primary
-  TinyBase Store, persistence, and synchronization.
+  TinyBase Store.
+- The primary Store file also initializes persistence.
+- The primary Store file also initializes synchronization.
 - \`client/src/App.tsx\` contains the main application UI.
 - \`client/src/config.tsx\` contains synchronization configuration.
 - \`server/index.tsx\` contains the synchronization server.
@@ -20105,15 +20102,15 @@ The \`server\` directory contains your Node.js WebSocket server.
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3",
+    "vite": "^8.1.4",
     "typescript": "^6.0.3",
-    "@types/node": "^26.1.0",
+    "@types/node": "^26.1.1",
     "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^6.0.3"
   },
   "dependencies": {
-    "tinybase": "^9.0.0",
+    "tinybase": "^9.2.0",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
     "reconnecting-websocket": "^4.4.0"
@@ -20872,13 +20869,13 @@ console.log(\`WebSocket server running on ws://localhost:\${PORT}\`);
     "start": "node index.js"
   },
   "dependencies": {
-    "tinybase": "^9.0.0",
+    "tinybase": "^9.2.0",
     "ws": "^8.21.0"
   },
   "devDependencies": {
     "@types/ws": "^8.18.1",
     "typescript": "^6.0.3",
-    "tsx": "^4.22.0"
+    "tsx": "^4.23.0"
   }
 }
 ",
@@ -20914,7 +20911,8 @@ initial in-memory data does not overwrite persisted data during startup.
 
 - \`README.md\` explains how to run the generated project.
 - \`client/src/CanvasStore.tsx\` configures the primary
-  TinyBase Store, persistence.
+  TinyBase Store.
+- The primary Store file also initializes persistence.
 - \`client/src/App.tsx\` contains the main application UI.
 
 ## Working Method
@@ -21067,15 +21065,15 @@ with the store.
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3",
+    "vite": "^8.1.4",
     "typescript": "^6.0.3",
-    "@types/node": "^26.1.0",
+    "@types/node": "^26.1.1",
     "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^6.0.3"
   },
   "dependencies": {
-    "tinybase": "^9.0.0",
+    "tinybase": "^9.2.0",
     "react": "^19.2.7",
     "react-dom": "^19.2.7"
   }
@@ -21837,7 +21835,8 @@ initial in-memory data does not overwrite persisted data during startup.
 
 - \`README.md\` explains how to run the generated project.
 - \`client/src/Store.tsx\` configures the primary
-  TinyBase Store, persistence.
+  TinyBase Store.
+- The primary Store file also initializes persistence.
 - \`client/src/App.tsx\` contains the main application UI.
 
 ## Working Method
@@ -21988,15 +21987,15 @@ with the store.
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3",
+    "vite": "^8.1.4",
     "typescript": "^6.0.3",
-    "@types/node": "^26.1.0",
+    "@types/node": "^26.1.1",
     "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^6.0.3"
   },
   "dependencies": {
-    "tinybase": "^9.0.0",
+    "tinybase": "^9.2.0",
     "react": "^19.2.7",
     "react-dom": "^19.2.7"
   }
@@ -22685,7 +22684,8 @@ initial in-memory data does not overwrite persisted data during startup.
 
 - \`README.md\` explains how to run the generated project.
 - \`client/src/Store.tsx\` configures the primary
-  TinyBase Store, persistence.
+  TinyBase Store.
+- The primary Store file also initializes persistence.
 - \`client/src/App.tsx\` contains the main application UI.
 
 ## Working Method
@@ -22838,15 +22838,15 @@ with the store.
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3",
+    "vite": "^8.1.4",
     "typescript": "^6.0.3",
-    "@types/node": "^26.1.0",
+    "@types/node": "^26.1.1",
     "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^6.0.3"
   },
   "dependencies": {
-    "tinybase": "^9.0.0",
+    "tinybase": "^9.2.0",
     "react": "^19.2.7",
     "react-dom": "^19.2.7"
   }
@@ -23473,6 +23473,1093 @@ export default defineConfig({
 }
 `;
 
+exports[`create-tinybase > ts-react-todos-durable-objects > should match snapshot 1`] = `
+{
+  "AGENTS.md": "# TinyBase Application Guide
+
+This project was generated by \`create-tinybase\`. Preserve its working data
+lifecycle while adapting the application to the user's requirements.
+
+## Selected Architecture
+
+- **Application**: todo list
+- **Language**: TypeScript
+- **UI**: React
+- **Store**: MergeableStore
+- **Persistence**: SQLite WASM
+- **Synchronization**: Cloudflare Durable Objects
+- **Schemas**: not enabled
+
+The generator uses a MergeableStore so synchronization can be added or removed
+without changing the application data API. Do not replace it with a regular
+Store unless merge metadata and future synchronization are intentionally
+unnecessary.
+
+The Store is loaded before automatic saving starts. Preserve that ordering so
+initial in-memory data does not overwrite persisted data during startup.
+
+## Key Files
+
+- \`README.md\` explains how to run the generated project.
+- \`client/src/Store.tsx\` configures the primary
+  TinyBase Store.
+- The primary Store file also initializes persistence.
+- The primary Store file also initializes synchronization.
+- \`client/src/App.tsx\` contains the main application UI.
+- \`client/src/config.tsx\` contains synchronization configuration.
+- \`server/index.tsx\` contains the synchronization server.
+
+## Working Method
+
+1. Read \`README.md\` and the primary Store file before making changes.
+2. Keep application data in TinyBase rather than duplicating it in UI state.
+3. Use the existing React bindings and generated component patterns.
+4. Keep persistence and synchronization setup separate from application UI.
+5. Run the client build after edits.
+6. Run the server build when server code changes.
+
+## Verification
+
+From \`client\`, run:
+
+\`\`\`sh
+npm run build
+\`\`\`
+
+Change data in the running app, reload the page, and confirm the change remains.
+Open the same room URL in two clients, change data in one, and confirm the other
+updates. Test reconnection if synchronization behavior changes.
+
+Current TinyBase documentation: https://tinybase.org/llms.txt
+",
+  "README.md": "# test-ts-react-todos-durable-objects
+
+A TinyBase app built with TypeScript and React.
+
+## Getting Started
+
+Alongside this file, you will see a directory called \`client\` (and one called \`server\` for your local Cloudflare Durable Objects server).
+
+To start the web client with Vite, run the following commands:
+
+\`\`\`bash
+cd client
+npm install
+npm run dev
+\`\`\`
+
+PNPM, Yarn, and Bun should also work. Your app will be available at
+\`http://localhost:5173\`, or whichever port Vite specifies in the console.
+
+If you included server code, start the server in a separate terminal, ideally
+before starting the client:
+
+\`\`\`bash
+# In a separate terminal
+cd server
+npm install
+npm run dev
+\`\`\`
+
+After that, start hacking!
+
+## Structure
+
+This project is organized into two main directories:
+
+### Client
+
+The \`client\` directory contains your React-based web application,
+built with Vite and TypeScript.
+
+#### Key Files
+
+- **\`index.html\`**: The main HTML file that loads your app
+- **\`src/index.tsx\`**: Entry point that bootstraps and renders the React app
+- **\`src/App.tsx\`**: Main React component that renders the todo list
+- **\`src/Store.tsx\`**: TinyBase main store configuration
+- **\`src/config.tsx\`**: Configuration settings (including server connection URL)
+
+#### How It Works
+
+The app uses **TinyBase** to manage application state in a reactive data store.
+
+The store is a **MergeableStore**, which supports real-time synchronization across
+multiple clients. When you open the app, it generates a unique room ID in the URL
+path (e.g., \`/abc123\`). Anyone who visits the same URL will share the same data
+and see live updates from other users.
+
+**Persistence** is enabled using SQLite WASM (running entirely in the browser).
+Your data is automatically saved and restored when you reload the page.
+
+**Synchronization** is powered by TinyBase's WebSocket synchronizer, connecting
+to your Cloudflare Durable Objects server.
+When data changes locally, it's sent to the server and broadcast to all other
+clients in the same room. The MergeableStore handles conflict resolution using
+CRDTs, ensuring all clients converge to the same state.
+
+**React Integration**: TinyBase provides React hooks that automatically subscribe
+to store changes and trigger re-renders when data updates. This means your UI
+stays in sync with your data with minimal boilerplate.
+
+Components like \`TodoList\` and \`TodoItem\` use hooks like \`useSortedRowIds\`, \`useRow\`, and
+callback hooks like \`useAddRowCallback\` and \`useDelRowCallback\`
+to interact
+with the store.
+
+### Server
+
+The \`server\` directory contains your Cloudflare Durable Objects WebSocket server.
+
+#### Key Files
+
+- **\`index.tsx\`**: Server entry point
+
+#### How It Works
+
+    The server uses **Cloudflare Durable Objects** to provide persistent, distributed
+    synchronization. Each room (identified by the URL path) maps to a Durable Object
+    instance that:
+
+    - Maintains the canonical state in SQL storage (using Durable Object SQL Storage)
+    - Handles WebSocket connections from clients
+    - Broadcasts changes to all connected clients in the room
+    - Automatically persists data, ensuring durability across deployments
+
+    The \`TinyBaseDurableObject\` class extends \`WsServerDurableObject\` and creates a
+    MergeableStore with a SQL storage persister. Cloudflare's infrastructure ensures
+    that all clients connecting to the same path are routed to the same Durable
+    Object instance.
+
+    To deploy to Cloudflare Workers, you'll need to configure your \`wrangler.toml\`
+    file with your Durable Object bindings.
+
+## Learn More
+
+- [TinyBase Documentation](https://tinybase.org)
+- [TinyBase Examples](https://tinybase.org/demos/)
+",
+  "client/.npmrc": "legacy-peer-deps=true
+",
+  "client/index.html": "<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap"
+    />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>TinyBase Todos</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        user-select: none;
+        margin: 0;
+        padding: 0;
+        font-family: 'Inter', sans-serif;
+      }
+
+      #root {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+
+      #app {
+        max-width: 60rem;
+        width: 100%;
+        margin: 0 auto;
+        padding: 2rem 1.5rem;
+      }
+
+      body {
+        --hue: 270;
+        --fg: oklch(85% 0.01 var(--hue));
+        --fg2: oklch(60% 0.01 var(--hue));
+        --bg: oklch(20% 0.01 var(--hue));
+        --bg2: oklch(25% 0.01 var(--hue));
+        --border: oklch(30% 0.01 var(--hue));
+        --bg-header: oklch(30% 0.008 var(--hue) / 0.5);
+        --accent: #d81b60;
+        color: var(--fg);
+        background: var(--bg);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="root"></div>
+
+    <script type="module" src="/src/index.tsx"></script>
+  </body>
+</html>
+",
+  "client/package.json": "{
+  "name": "test-ts-react-todos-durable-objects-client",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^8.1.4",
+    "typescript": "^6.0.3",
+    "@types/node": "^26.1.1",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.3"
+  },
+  "dependencies": {
+    "tinybase": "^9.2.0",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "reconnecting-websocket": "^4.4.0",
+    "@sqlite.org/sqlite-wasm": "^3.53.0-build1"
+  }
+}
+",
+  "client/public/favicon.svg": "<svg viewBox="0 0 680 680" xmlns="http://www.w3.org/2000/svg" style="width:680px;height:680px">
+  <path stroke="#fff" stroke-width="80" fill="none"
+    d="M340 617a84 241 90 11.01 0zM131 475a94 254 70 10428-124 114 286 70 01-428 124zm0-140a94 254 70 10428-124 114 286 70 01-428 124zm-12-127a94 254 70 00306 38 90 260 90 01-306-38zm221 3a74 241 90 11.01 0z" />
+  <path fill="#d81b60"
+    d="M131 475a94 254 70 10428-124 114 286 70 01-428 124zm0-140a94 254 70 10428-124 114 286 70 01-428 124z" />
+  <path
+    d="M249 619a94 240 90 00308-128 114 289 70 01-308 128zM119 208a94 254 70 00306 38 90 260 90 01-306-38zm221 3a74 241 90 11.01 0z" />
+</svg>",
+  "client/public/react.svg": "<svg xmlns="http://www.w3.org/2000/svg" viewBox="-11.5 -10.23174 23 20.46348">
+  <title>React Logo</title>
+  <circle cx="0" cy="0" r="2.05" fill="#61dafb" />
+  <g stroke="#61dafb" stroke-width="1" fill="none">
+    <ellipse rx="11" ry="4.2" />
+    <ellipse rx="11" ry="4.2" transform="rotate(60)" />
+    <ellipse rx="11" ry="4.2" transform="rotate(120)" />
+  </g>
+</svg>",
+  "client/public/sqlite.svg": "﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg viewBox="0 0 256 256" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+  xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" id="svg2985" version="1.1"
+  inkscape:version="0.48.4 r9939" width="256" height="256" xml:space="preserve"
+  sodipodi:docname="sqlite-square-icon.svg">
+  <metadata id="metadata2991">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs id="defs2989">
+    <linearGradient x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse"
+      gradientTransform="matrix(-4.02e-6,-91.8907,-91.8907,4.02e-6,85.8809,161.434)" spreadMethod="pad"
+      id="linearGradient3027">
+      <stop style="stop-opacity:1;stop-color:#97d9f6" offset="0" id="stop3029" />
+      <stop style="stop-opacity:1;stop-color:#0f80cc" offset="0.920245" id="stop3031" />
+      <stop style="stop-opacity:1;stop-color:#0f80cc" offset="1" id="stop3033" />
+    </linearGradient>
+    <linearGradient inkscape:collect="always" xlink:href="#linearGradient3027" id="linearGradient5421"
+      gradientUnits="userSpaceOnUse" gradientTransform="matrix(-4.02e-7,-9.18907,-9.18907,4.02e-7,8.58809,16.1434)"
+      spreadMethod="pad" x1="-15.614694" y1="-9.1082983" x2="-6.7410073" y2="-9.1082983" />
+    <linearGradient inkscape:collect="always" xlink:href="#linearGradient3027" id="linearGradient3003"
+      gradientUnits="userSpaceOnUse" gradientTransform="matrix(-4.02e-7,-9.18907,-9.18907,4.02e-7,8.58809,16.1434)"
+      spreadMethod="pad" x1="-15.614694" y1="-9.1082983" x2="-6.7410073" y2="-9.1082983" />
+  </defs>
+  <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10"
+    gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="1920"
+    inkscape:window-height="1017" id="namedview2987" showgrid="false" inkscape:zoom="0.73710525" inkscape:cx="217.03271"
+    inkscape:cy="157.19018" inkscape:window-x="-8" inkscape:window-y="-8" inkscape:window-maximized="1"
+    inkscape:current-layer="g2993" fit-margin-top="10" fit-margin-left="10" fit-margin-right="10" fit-margin-bottom="10"
+    inkscape:snap-page="true" inkscape:snap-bbox="true" />
+  <g id="g2993" inkscape:groupmode="layer" inkscape:label="ink_ext_XXXXXX"
+    transform="matrix(1.25,0,0,-1.25,-41.57475,299.78375)">
+    <g id="g2998" transform="matrix(1.5512433,0,0,1.5512433,-16.326028,-27.718348)">
+      <path
+        d="m 103.096,71.5961 c -0.057,0.7219 -0.091,1.191 -0.091,1.191 0,0 -2.189,14.7578 -4.7948,19.1617 -0.4122,0.6981 0.0449,3.5653 1.1953,7.8121 0.6725,-1.1629 3.5115,-6.1371 4.0815,-7.7398 0.642,-1.8121 0.777,-2.3313 0.777,-2.3313 0,0 -1.557,8.0114 -4.112,12.6862 0.56,1.89 1.229,3.979 1.986,6.212 0.968,-1.698 3.285,-5.809 3.795,-7.235 0.103,-0.293 0.19,-0.542 0.268,-0.77 0.025,0.137 0.05,0.274 0.075,0.411 -0.585,2.482 -1.734,6.801 -3.307,9.992 3.49,18.165 15.393,42.445 27.596,53.278 l -79.6048,0 c -5.3352,0 -9.7004,-4.366 -9.7004,-9.701 l 0,-87.7892 c 0,-5.3347 4.3652,-9.7 9.7004,-9.7 l 52.4298,0 c -0.378,4.5762 -0.504,9.6391 -0.294,14.5223"
+        style="fill:#0f80cc;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path3005"
+        inkscape:connector-curvature="0" />
+      <path
+        d="m 99.4055,99.7609 c 0.6725,-1.1629 3.5115,-6.1371 4.0815,-7.7398 0.642,-1.8121 0.777,-2.3313 0.777,-2.3313 0,0 -1.557,8.0114 -4.112,12.6862 0.56,1.89 1.229,3.979 1.986,6.212 0.885,-1.553 2.896,-5.12 3.623,-6.81 0.027,0.319 0.054,0.638 0.082,0.954 -0.644,2.475 -1.622,5.715 -2.874,8.254 3.214,16.725 13.559,38.625 24.704,50.448 l -76.7128,0 c -3.7883,0 -6.8711,-3.082 -6.8711,-6.871 l 0,-81.3841 c 17.3738,6.668 38.323,12.7633 56.3529,12.502 -0.6693,2.5812 -1.4315,4.9152 -2.2318,6.2679 -0.4122,0.6981 0.0449,3.5653 1.1953,7.8121"
+        style="fill:url(#linearGradient3003);fill-opacity:1;fill-rule:nonzero;stroke:none" id="path3035"
+        inkscape:connector-curvature="0" />
+      <path
+        d="m 149.133,167.137 c -5.452,4.862 -12.053,2.909 -18.568,-2.873 -0.967,-0.859 -1.932,-1.812 -2.892,-2.83 -11.145,-11.823 -21.49,-33.723 -24.704,-50.448 1.252,-2.539 2.23,-5.779 2.874,-8.254 0.165,-0.635 0.314,-1.231 0.433,-1.738 0.283,-1.1999 0.435,-1.978 0.435,-1.978 0,0 -0.1,0.3781 -0.51,1.567 -0.078,0.228 -0.165,0.477 -0.268,0.77 -0.044,0.121 -0.105,0.268 -0.172,0.425 -0.727,1.69 -2.738,5.257 -3.623,6.81 -0.757,-2.233 -1.426,-4.322 -1.986,-6.212 2.555,-4.6748 4.112,-12.6862 4.112,-12.6862 0,0 -0.135,0.5192 -0.777,2.3313 -0.57,1.6027 -3.409,6.5769 -4.0815,7.7398 -1.1504,-4.2468 -1.6075,-7.114 -1.1953,-7.8121 0.8003,-1.3527 1.5625,-3.6867 2.2318,-6.2679 1.512,-5.8149 2.563,-12.8938 2.563,-12.8938 0,0 0.034,-0.4691 0.091,-1.191 -0.21,-4.8832 -0.084,-9.9461 0.294,-14.5223 0.501,-6.0578 1.444,-11.2617 2.646,-14.0468 l 0.816,0.4449 c -1.765,5.4871 -2.482,12.6781 -2.168,20.9711 0.475,12.6761 3.392,27.9629 8.782,43.896 9.106,24.052 21.74,43.35 33.303,52.566 -10.539,-9.518 -24.803,-40.327 -29.073,-51.736 -4.781,-12.776 -8.169,-24.7651 -10.211,-36.2518 3.523,10.7687 14.914,15.3976 14.914,15.3976 0,0 5.587,6.8903 12.116,16.7342 -3.911,-0.892 -10.333,-2.419 -12.484,-3.323 -3.173,-1.331 -4.028,-1.785 -4.028,-1.785 0,0 10.278,6.259 19.096,9.093 12.127,19.1 25.339,46.234 12.034,58.103"
+        style="fill:#003b57;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path3045"
+        inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>",
+  "client/public/sync.svg": "<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#8a8f98">
+  <path
+    d="M160-160v-80h110l-16-14q-52-46-73-105t-21-119q0-111 66.5-197.5T400-790v84q-72 26-116 88.5T240-478q0 45 17 87.5t53 78.5l10 10v-98h80v240H160Zm400-10v-84q72-26 116-88.5T720-482q0-45-17-87.5T650-648l-10-10v98h-80v-240h240v80H690l16 14q49 49 71.5 106.5T800-482q0 111-66.5 197.5T560-170Z" />
+</svg>
+",
+  "client/public/ts.svg": "<svg fill="none" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg">
+  <rect fill="#3178c6" height="512" width="512" />
+  <path clip-rule="evenodd"
+    d="m316.939 407.424v50.061c8.138 4.172 17.763 7.3 28.875 9.386s22.823 3.129 35.135 3.129c11.999 0 23.397-1.147 34.196-3.442 10.799-2.294 20.268-6.075 28.406-11.342 8.138-5.266 14.581-12.15 19.328-20.65s7.121-19.007 7.121-31.522c0-9.074-1.356-17.026-4.069-23.857s-6.625-12.906-11.738-18.225c-5.112-5.319-11.242-10.091-18.389-14.315s-15.207-8.213-24.18-11.967c-6.573-2.712-12.468-5.345-17.685-7.9-5.217-2.556-9.651-5.163-13.303-7.822-3.652-2.66-6.469-5.476-8.451-8.448-1.982-2.973-2.974-6.336-2.974-10.091 0-3.441.887-6.544 2.661-9.308s4.278-5.136 7.512-7.118c3.235-1.981 7.199-3.52 11.894-4.615 4.696-1.095 9.912-1.642 15.651-1.642 4.173 0 8.581.313 13.224.938 4.643.626 9.312 1.591 14.008 2.894 4.695 1.304 9.259 2.947 13.694 4.928 4.434 1.982 8.529 4.276 12.285 6.884v-46.776c-7.616-2.92-15.937-5.084-24.962-6.492s-19.381-2.112-31.066-2.112c-11.895 0-23.163 1.278-33.805 3.833s-20.006 6.544-28.093 11.967c-8.086 5.424-14.476 12.333-19.171 20.729-4.695 8.395-7.043 18.433-7.043 30.114 0 14.914 4.304 27.638 12.912 38.172 8.607 10.533 21.675 19.45 39.204 26.751 6.886 2.816 13.303 5.579 19.25 8.291s11.086 5.528 15.415 8.448c4.33 2.92 7.747 6.101 10.252 9.543 2.504 3.441 3.756 7.352 3.756 11.733 0 3.233-.783 6.231-2.348 8.995s-3.939 5.162-7.121 7.196-7.147 3.624-11.894 4.771c-4.748 1.148-10.303 1.721-16.668 1.721-10.851 0-21.597-1.903-32.24-5.71-10.642-3.806-20.502-9.516-29.579-17.13zm-84.159-123.342h64.22v-41.082h-179v41.082h63.906v182.918h50.874z"
+    fill="#fff" fill-rule="evenodd" />
+</svg>",
+  "client/src/App.tsx": "import {StrictMode, useState} from 'react';
+import {Loading} from './Loading';
+import {Provider} from 'tinybase/ui-react';
+import {Inspector} from 'tinybase/ui-react-inspector';
+import {Store} from './Store';
+import {TodoInput} from './TodoInput';
+import {TodoList} from './TodoList';
+import {TopBar} from './TopBar';
+
+export const App = () => (
+  <>
+    <TopBar />
+    <Main />
+  </>
+);
+
+const Main = () => {
+  const [loading, setLoading] = useState(true);
+
+  return (
+    <div id="app">
+      <StrictMode>
+        <Provider>
+          <Store onReady={() => setLoading(false)} />
+          {loading ? (
+            <Loading />
+          ) : (
+            <>
+              <TodoInput />
+              <TodoList />
+              <Inspector />
+            </>
+          )}
+        </Provider>
+      </StrictMode>
+    </div>
+  );
+};
+",
+  "client/src/Button.tsx": "import './button.css';
+import {ReactNode} from 'react';
+
+interface ButtonProps {
+  children: ReactNode;
+  onClick?: () => void;
+  variant?: 'default' | 'primary';
+  type?: 'button' | 'submit';
+}
+
+export const Button = ({
+  children,
+  onClick,
+  variant = 'default',
+  type = 'button',
+}: ButtonProps) => (
+  <button
+    onClick={onClick}
+    type={type}
+    className={variant === 'primary' ? 'primary' : undefined}
+  >
+    {children}
+  </button>
+);
+",
+  "client/src/Info.tsx": "import './info.css';
+
+export const Info = () => (
+  <div id="info">
+    <div id="infoTech">
+      <img
+        src="/ts.svg"
+        className="infoTechIcon"
+        title="Written in TypeScript"
+      />
+      <img src="/react.svg" className="infoTechIcon" title="Built with React" />
+      <img
+        src="/sqlite.svg"
+        className="infoTechIcon"
+        title="Persists data to SQLite"
+      />
+      <img
+        src="/sync.svg"
+        className="infoTechIcon"
+        title="Data synchronization enabled"
+      />
+    </div>
+    <div id="infoIcon">
+      i
+      <div id="infoTooltip">
+        {
+          "A simple todo list application demonstrating TinyBase's reactive data management with CRUD operations."
+        }
+      </div>
+    </div>
+  </div>
+);
+",
+  "client/src/Input.tsx": "import './input.css';
+
+interface InputProps {
+  id?: string;
+  value: string;
+  onChange: (value: string) => void;
+  placeholder?: string;
+  autoFocus?: boolean;
+}
+
+export const Input = ({
+  id,
+  value,
+  onChange,
+  placeholder = '',
+  autoFocus = false,
+}: InputProps) => (
+  <input
+    id={id}
+    type="text"
+    value={value}
+    onChange={(e) => onChange(e.target.value)}
+    placeholder={placeholder}
+    autoFocus={autoFocus}
+  />
+);
+",
+  "client/src/Loading.tsx": "import './loading.css';
+
+export const Loading = () => <div id="loading" />;
+",
+  "client/src/Store.tsx": "import {
+  useCreateMergeableStore,
+  useProvideStore,
+  useAddRowCallback,
+  useDelRowCallback,
+  useRow,
+  useSortedRowIds,
+  useSetPartialRowCallback,
+} from 'tinybase/ui-react';
+import {STORE_ID, createTodosStore, type TodoRow} from './storeData';
+import {createSqliteWasmPersister} from 'tinybase/persisters/persister-sqlite-wasm';
+import {useCreatePersister} from 'tinybase/ui-react';
+import {getDb} from './sqlite';
+import {SERVER} from './config';
+import ReconnectingWebSocket from 'reconnecting-websocket';
+import {createWsSynchronizer} from 'tinybase/synchronizers/synchronizer-ws-client';
+import {useCreateSynchronizer} from 'tinybase/ui-react';
+
+export {STORE_ID};
+export type {TodoRow};
+export {
+  useAddRowCallback,
+  useDelRowCallback,
+  useRow,
+  useSortedRowIds,
+  useSetPartialRowCallback,
+};
+
+export const Store = ({onReady}: {onReady?: () => void}) => {
+  const store = useCreateMergeableStore(() => createTodosStore());
+
+  useProvideStore(STORE_ID, store);
+
+  useCreatePersister(
+    store,
+    async (store) => {
+      const {sqlite3, db} = await getDb();
+      return createSqliteWasmPersister(store, sqlite3, db, STORE_ID);
+    },
+    [],
+    async (persister) => {
+      await persister.load();
+      await persister.startAutoSave();
+      onReady?.();
+    },
+  );
+
+  useCreateSynchronizer(store, async (store) => {
+    const serverPathId = location.pathname;
+    const synchronizer = await createWsSynchronizer(
+      store,
+      new ReconnectingWebSocket(SERVER + serverPathId),
+    );
+    await synchronizer.startSync();
+
+    synchronizer.getWebSocket().addEventListener('open', () => {
+      synchronizer.load().then(() => {
+        synchronizer.save();
+      });
+    });
+
+    return synchronizer;
+  });
+
+  return null;
+};
+",
+  "client/src/Title.tsx": "import './title.css';
+
+export const Title = () => (
+  <h1 id="topBarTitle">
+    <img src="/favicon.svg" id="topBarLogo" alt="TinyBase" />
+    TinyBase Todos
+  </h1>
+);
+",
+  "client/src/TodoInput.tsx": "import './todoInput.css';
+import {useState} from 'react';
+import {useAddRowCallback, STORE_ID} from './Store';
+import {Input} from './Input';
+import {Button} from './Button';
+
+export const TodoInput = () => {
+  const [text, setText] = useState('');
+  const addRow = useAddRowCallback(
+    'todos',
+    () => ({text: text.trim(), completed: false}),
+    [text],
+    STORE_ID,
+  );
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (text.trim()) {
+      addRow();
+      setText('');
+    }
+  };
+
+  return (
+    <form id="todoInput" onSubmit={handleSubmit}>
+      <Input
+        value={text}
+        onChange={setText}
+        placeholder="What needs to be done?"
+        autoFocus
+      />
+      <Button type="submit" variant="primary">
+        Add
+      </Button>
+    </form>
+  );
+};
+",
+  "client/src/TodoItem.tsx": "import './todoItem.css';
+import {
+  useDelRowCallback,
+  useRow,
+  useSetPartialRowCallback,
+  type TodoRow,
+  STORE_ID,
+} from './Store';
+import {Button} from './Button';
+
+export const TodoItem = ({rowId}: {rowId: string}) => {
+  const todo = useRow('todos', rowId, STORE_ID) as TodoRow;
+  const setPartialRow = useSetPartialRowCallback(
+    'todos',
+    rowId,
+    (e: React.ChangeEvent<HTMLInputElement>) => ({completed: e.target.checked}),
+    [],
+    STORE_ID,
+  );
+  const delRow = useDelRowCallback('todos', rowId, STORE_ID);
+
+  return (
+    <div className={\`todoItem\${todo.completed ? ' completed' : ''}\`}>
+      <input
+        type="checkbox"
+        checked={todo.completed}
+        onChange={setPartialRow}
+        id={\`todo-\${rowId}\`}
+      />
+      <label htmlFor={\`todo-\${rowId}\`}>{todo.text}</label>
+
+      <Button onClick={delRow}>Delete</Button>
+    </div>
+  );
+};
+",
+  "client/src/TodoList.tsx": "import './todoList.css';
+import {useSortedRowIds, STORE_ID} from './Store';
+import {TodoItem} from './TodoItem';
+
+export const TodoList = () => {
+  const todoIds = useSortedRowIds(
+    'todos',
+    undefined,
+    false,
+    0,
+    undefined,
+    STORE_ID,
+  );
+
+  return (
+    <div id="todoList">
+      {todoIds.map((id) => (
+        <TodoItem key={id} rowId={id} />
+      ))}
+    </div>
+  );
+};
+",
+  "client/src/TopBar.tsx": "import './topBar.css';
+import {Info} from './Info';
+import {Title} from './Title';
+
+export const TopBar = () => (
+  <div id="topBar">
+    <Title />
+    <Info />
+  </div>
+);
+",
+  "client/src/button.css": "button {
+  padding: 0.5rem 1rem;
+  border: 1px solid #666;
+  border-radius: 0.25rem;
+  background: #222;
+  color: #fff;
+  font-family: inherit;
+  font-weight: 800;
+  cursor: pointer;
+  margin: 0.5rem;
+}
+
+button:hover {
+  border-color: #d81b60;
+}
+
+button.primary {
+  background: #d81b60;
+  border: none;
+  padding: 0.75rem 1.5rem;
+}
+
+button.primary:hover {
+  background: #c2185b;
+}
+",
+  "client/src/config.ts": "export const SERVER = 'ws://localhost:8787';
+",
+  "client/src/index.tsx": "import {getUniqueId} from 'tinybase';
+import ReactDOM from 'react-dom/client';
+import {App} from './App';
+
+if (location.pathname === '/') {
+  location.assign('/' + getUniqueId());
+}
+
+const root = document.getElementById('root')!;
+
+addEventListener('load', () => {
+  ReactDOM.createRoot(root).render(<App />);
+});
+",
+  "client/src/info.css": "#info {
+  --info-fg: var(--fg, oklch(85% 0.01 270));
+  --info-fg2: var(--fg2, oklch(60% 0.01 270));
+  --info-bg2: var(--bg2, oklch(25% 0.01 270));
+  --info-border: var(--border, oklch(30% 0.01 270));
+  --info-accent: var(--accent, #d81b60);
+  --info-icon: #8a8f98;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+#infoTech {
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+}
+
+.infoTechIcon {
+  width: 1.25rem;
+  height: 1.25rem;
+  display: block;
+  flex-shrink: 0;
+}
+
+#infoIcon {
+  width: 1.25rem;
+  height: 1.25rem;
+  border: 2px solid var(--info-icon);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: 800;
+  color: var(--info-icon);
+  cursor: help;
+  transition: all 0.2s;
+  user-select: none;
+}
+
+#infoIcon:hover {
+  border-color: var(--info-accent);
+  color: var(--info-accent);
+}
+
+#infoIcon:hover #infoTooltip {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+#infoTooltip {
+  position: absolute;
+  right: 0;
+  top: calc(100% + 0.5rem);
+  background: var(--info-bg2);
+  border: 1px solid var(--info-border);
+  border-radius: 0.375rem;
+  padding: 0.75rem 1rem;
+  font-size: 0.85rem;
+  font-weight: 400;
+  width: 20rem;
+  white-space: normal;
+  color: var(--info-fg);
+  line-height: 1.5;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-0.25rem);
+  transition: all 0.2s;
+  pointer-events: none;
+  box-shadow: 0 1px 2px 0 #0007;
+  z-index: 1;
+}
+
+#infoTooltip a {
+  color: var(--info-fg);
+  text-decoration: underline;
+}
+
+#infoTooltip::before {
+  content: '';
+  position: absolute;
+  right: 0.75rem;
+  top: -0.375rem;
+  width: 0.75rem;
+  height: 0.75rem;
+  background: var(--info-bg2);
+  border-left: 1px solid var(--info-border);
+  border-top: 1px solid var(--info-border);
+  transform: rotate(45deg);
+}
+",
+  "client/src/input.css": "input[type='text'] {
+  padding: 0.5rem 0.75rem;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 0.375rem;
+  color: var(--fg);
+  font-family: inherit;
+  font-size: 1rem;
+  line-height: 1.5;
+  width: 100%;
+  box-sizing: border-box;
+  align-self: center;
+}
+
+input[type='text']:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+input[type='text']::placeholder {
+  color: var(--fg2);
+}
+",
+  "client/src/loading.css": "#loading {
+  animation: spin 1s infinite linear;
+  height: 2rem;
+  margin: 40vh auto;
+  width: 2rem;
+}
+
+#loading::before {
+  content: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="2rem" viewBox="0 0 100 100"><path d="M50 10A40 40 0 1 1 10 50" stroke="%23d81b60" fill="none" stroke-width="4" /></svg>');
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+",
+  "client/src/sqlite.tsx": "import sqlite3InitModule, {
+  type Database,
+  type Sqlite3Static,
+} from '@sqlite.org/sqlite-wasm';
+
+let sqlite3Promise: Promise<Sqlite3Static> | null = null;
+let db: Database | null = null;
+const initSqlite = sqlite3InitModule as () => Promise<Sqlite3Static>;
+
+export const getDb = async () => {
+  if (!sqlite3Promise) {
+    sqlite3Promise = initSqlite();
+  }
+  if (!db) {
+    const sqlite3 = await sqlite3Promise;
+    db = new sqlite3.oo1.DB('file:local?vfs=kvvfs', 'c');
+  }
+  return {sqlite3: await sqlite3Promise, db};
+};
+",
+  "client/src/storeData.ts": "import {createMergeableStore} from 'tinybase';
+
+export type TodoRow = {text: string; completed: boolean};
+
+export const STORE_ID = 'todos';
+
+export const createTodosStore = () =>
+  createMergeableStore().setDefaultContent([
+    {
+      todos: {
+        '1': {text: 'Learn TinyBase', completed: false},
+        '2': {text: 'Build an app', completed: false},
+      },
+    },
+    {},
+  ]);
+",
+  "client/src/title.css": "#topBarLogo {
+  height: 2rem;
+  width: 2rem;
+  flex-shrink: 0;
+}
+
+#topBarTitle {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: inherit;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 0;
+}
+",
+  "client/src/todoInput.css": "#todoInput {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+#todoInput input {
+  flex: 1;
+}
+",
+  "client/src/todoItem.css": ".todoItem {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.todoItem:last-child {
+  border-bottom: none;
+}
+
+.todoItem input[type='checkbox'] {
+  width: 1.25rem;
+  height: 1.25rem;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.todoItem label {
+  flex: 1;
+  cursor: pointer;
+  user-select: none;
+}
+
+.todoItem.completed label {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.todoItem button {
+  flex-shrink: 0;
+}
+",
+  "client/src/todoList.css": "#todoList {
+  border: 1px solid var(--border);
+  border-radius: 0.375rem;
+  overflow: hidden;
+  background: var(--bg2);
+  width: 100%;
+}
+
+#todoList:empty::before {
+  content: 'No todos yet. Add one above!';
+  display: block;
+  padding: 2rem;
+  text-align: center;
+  color: var(--fg2);
+}
+",
+  "client/src/topBar.css": "#topBar {
+  background: var(--bg-header);
+  border-bottom: 1px solid var(--border);
+  box-shadow: 0 1px 2px 0 #0007;
+  padding: 0.75rem 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  backdrop-filter: blur(4px);
+}
+",
+  "client/src/vite-env.d.ts": "declare module '*.css' {
+  const content: string;
+  export default content;
+}
+",
+  "client/tsconfig.json": "{
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedSideEffectImports": true
+  },
+  "include": ["src"]
+}
+",
+  "client/vite.config.js": "import {defineConfig} from 'vite';
+import react from '@vitejs/plugin-react';
+
+export default defineConfig({
+  plugins: [
+    react({
+      jsxRuntime: 'automatic',
+    }),
+  ],
+  server: {
+    headers: {
+      'Cross-Origin-Opener-Policy': 'same-origin',
+      'Cross-Origin-Embedder-Policy': 'require-corp',
+    },
+  },
+  optimizeDeps: {
+    exclude: ['@sqlite.org/sqlite-wasm'],
+  },
+});
+",
+  "server/index.ts": "import {createMergeableStore, type IdAddedOrRemoved} from 'tinybase';
+import {createDurableObjectSqlStoragePersister} from 'tinybase/persisters/persister-durable-object-sql-storage';
+import {
+  getWsServerDurableObjectFetch,
+  WsServerDurableObject,
+} from 'tinybase/synchronizers/synchronizer-ws-server-durable-object';
+
+export class TinyBaseDurableObject extends WsServerDurableObject {
+  createPersister() {
+    const store = createMergeableStore();
+    const persister = createDurableObjectSqlStoragePersister(
+      store,
+      this.ctx.storage.sql,
+    );
+    return persister;
+  }
+
+  onClientId(
+    pathId: string,
+    clientId: string,
+    addedOrRemoved: IdAddedOrRemoved,
+  ) {
+    console.log(
+      \`Client \${clientId} \${addedOrRemoved == 1 ? 'joined' : 'left'} /\${pathId}\`,
+    );
+  }
+}
+
+export default {
+  fetch: getWsServerDurableObjectFetch('TinyBaseDurableObjects'),
+};
+",
+  "server/package.json": "{
+  "name": "test-ts-react-todos-durable-objects-server",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "start": "wrangler dev"
+  },
+  "dependencies": {
+    "tinybase": "^9.2.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20260711.1",
+    "typescript": "^6.0.3",
+    "wrangler": "^4.110.0"
+  }
+}
+",
+  "server/tsconfig.json": "{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ES2020",
+    "lib": ["ES2020"],
+    "types": ["@cloudflare/workers-types"],
+    "moduleResolution": "bundler",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strict": true
+  },
+  "include": ["index.ts"]
+}
+",
+  "server/wrangler.toml": "#:schema node_modules/wrangler/config-schema.json
+name = "test-ts-react-todos-durable-objects-server"
+main = "index.ts"
+compatibility_date = "2024-10-11"
+
+[[durable_objects.bindings]]
+name = "TinyBaseDurableObjects"
+class_name = "TinyBaseDurableObject"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["TinyBaseDurableObject"]",
+}
+`;
+
 exports[`create-tinybase > ts-react-todos-remote-sync > should match snapshot 1`] = `
 {
   "AGENTS.md": "# TinyBase Application Guide
@@ -23502,7 +24589,9 @@ initial in-memory data does not overwrite persisted data during startup.
 
 - \`README.md\` explains how to run the generated project.
 - \`client/src/Store.tsx\` configures the primary
-  TinyBase Store, persistence, and synchronization.
+  TinyBase Store.
+- The primary Store file also initializes persistence.
+- The primary Store file also initializes synchronization.
 - \`client/src/App.tsx\` contains the main application UI.
 - \`client/src/config.tsx\` contains synchronization configuration.
 
@@ -23669,15 +24758,15 @@ with the store.
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3",
+    "vite": "^8.1.4",
     "typescript": "^6.0.3",
-    "@types/node": "^26.1.0",
+    "@types/node": "^26.1.1",
     "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^6.0.3"
   },
   "dependencies": {
-    "tinybase": "^9.0.0",
+    "tinybase": "^9.2.0",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
     "reconnecting-websocket": "^4.4.0"
@@ -24372,7 +25461,9 @@ initial in-memory data does not overwrite persisted data during startup.
 
 - \`README.md\` explains how to run the generated project.
 - \`client/src/Store.tsx\` configures the primary
-  TinyBase Store, persistence, and synchronization.
+  TinyBase Store.
+- The primary Store file also initializes persistence.
+- The primary Store file also initializes synchronization.
 - \`client/src/App.tsx\` contains the main application UI.
 - \`client/src/config.tsx\` contains synchronization configuration.
 
@@ -24541,15 +25632,15 @@ with the store.
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3",
+    "vite": "^8.1.4",
     "typescript": "^6.0.3",
-    "@types/node": "^26.1.0",
+    "@types/node": "^26.1.1",
     "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^6.0.3"
   },
   "dependencies": {
-    "tinybase": "^9.0.0",
+    "tinybase": "^9.2.0",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
     "reconnecting-websocket": "^4.4.0"
@@ -25259,7 +26350,8 @@ initial in-memory data does not overwrite persisted data during startup.
 
 - \`README.md\` explains how to run the generated project.
 - \`client/src/Store.tsx\` configures the primary
-  TinyBase Store, persistence.
+  TinyBase Store.
+- The primary Store file also initializes persistence.
 - \`client/src/App.tsx\` contains the main application UI.
 
 ## Working Method
@@ -25405,19 +26497,19 @@ components still own the app behavior and store interactions.
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3",
+    "vite": "^8.1.4",
     "typescript": "^6.0.3",
-    "@types/node": "^26.1.0",
+    "@types/node": "^26.1.1",
     "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^6.0.3",
-    "@vanilla-extract/vite-plugin": "^5.2.3"
+    "@vanilla-extract/vite-plugin": "^5.2.4"
   },
   "dependencies": {
-    "tinybase": "^9.0.0",
+    "tinybase": "^9.2.0",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
-    "tinywidgets": "^1.6.0"
+    "tinywidgets": "^1.6.2"
   }
 }
 ",
@@ -25979,7 +27071,8 @@ initial in-memory data does not overwrite persisted data during startup.
 
 - \`README.md\` explains how to run the generated project.
 - \`client/src/ChatStore.tsx\` configures the primary
-  TinyBase Store, persistence.
+  TinyBase Store.
+- The primary Store file also initializes persistence.
 - \`client/src/App.tsx\` contains the main application UI.
 
 ## Working Method
@@ -26133,13 +27226,13 @@ with the store.
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3",
+    "vite": "^8.1.4",
     "typescript": "^6.0.3",
-    "@types/node": "^26.1.0",
+    "@types/node": "^26.1.1",
     "vite-plugin-solid": "^2.11.12"
   },
   "dependencies": {
-    "tinybase": "^9.0.0",
+    "tinybase": "^9.2.0",
     "solid-js": "^1.9.14"
   }
 }
@@ -26403,11 +27496,7 @@ import {Message} from './Message';
 
 export const Messages = () => {
   const sortedIds = useSortedRowIds(
-    'messages',
-    'timestamp',
-    false,
-    0,
-    undefined,
+    {tableId: 'messages', cellId: 'timestamp'},
     STORE_ID,
   );
 
@@ -26861,7 +27950,9 @@ initial in-memory data does not overwrite persisted data during startup.
 
 - \`README.md\` explains how to run the generated project.
 - \`client/src/ChatStore.tsx\` configures the primary
-  TinyBase Store, persistence, and synchronization.
+  TinyBase Store.
+- The primary Store file also initializes persistence.
+- The primary Store file also initializes synchronization.
 - \`client/src/App.tsx\` contains the main application UI.
 - \`client/src/config.tsx\` contains synchronization configuration.
 
@@ -27029,13 +28120,13 @@ with the store.
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3",
+    "vite": "^8.1.4",
     "typescript": "^6.0.3",
-    "@types/node": "^26.1.0",
+    "@types/node": "^26.1.1",
     "vite-plugin-solid": "^2.11.12"
   },
   "dependencies": {
-    "tinybase": "^9.0.0",
+    "tinybase": "^9.2.0",
     "solid-js": "^1.9.14",
     "reconnecting-websocket": "^4.4.0"
   }
@@ -27331,11 +28422,7 @@ import {Message} from './Message';
 
 export const Messages = () => {
   const sortedIds = useSortedRowIds(
-    'messages',
-    'timestamp',
-    false,
-    0,
-    undefined,
+    {tableId: 'messages', cellId: 'timestamp'},
     STORE_ID,
   );
 
@@ -27796,7 +28883,8 @@ initial in-memory data does not overwrite persisted data during startup.
 
 - \`README.md\` explains how to run the generated project.
 - \`client/src/ChatStore.tsx\` configures the primary
-  TinyBase Store, persistence.
+  TinyBase Store.
+- The primary Store file also initializes persistence.
 - \`client/src/App.tsx\` contains the main application UI.
 
 ## Working Method
@@ -27950,13 +29038,13 @@ with the store.
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3",
+    "vite": "^8.1.4",
     "typescript": "^6.0.3",
-    "@types/node": "^26.1.0",
+    "@types/node": "^26.1.1",
     "vite-plugin-solid": "^2.11.12"
   },
   "dependencies": {
-    "tinybase": "^9.0.0",
+    "tinybase": "^9.2.0",
     "solid-js": "^1.9.14",
     "@sqlite.org/sqlite-wasm": "^3.53.0-build1"
   }
@@ -28288,11 +29376,7 @@ import {Message} from './Message';
 
 export const Messages = () => {
   const sortedIds = useSortedRowIds(
-    'messages',
-    'timestamp',
-    false,
-    0,
-    undefined,
+    {tableId: 'messages', cellId: 'timestamp'},
     STORE_ID,
   );
 
@@ -28779,7 +29863,8 @@ initial in-memory data does not overwrite persisted data during startup.
 
 - \`README.md\` explains how to run the generated project.
 - \`client/src/CanvasStore.tsx\` configures the primary
-  TinyBase Store, persistence.
+  TinyBase Store.
+- The primary Store file also initializes persistence.
 - \`client/src/App.tsx\` contains the main application UI.
 
 ## Working Method
@@ -28933,13 +30018,13 @@ with the store.
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3",
+    "vite": "^8.1.4",
     "typescript": "^6.0.3",
-    "@types/node": "^26.1.0",
+    "@types/node": "^26.1.1",
     "vite-plugin-solid": "^2.11.12"
   },
   "dependencies": {
-    "tinybase": "^9.0.0",
+    "tinybase": "^9.2.0",
     "solid-js": "^1.9.14"
   }
 }
@@ -29098,14 +30183,7 @@ export const Canvas = () => {
   let isDrawing = false;
   let currentStrokeId: string | null = null;
   const settings = useValues(SETTINGS_STORE_ID);
-  const sortedIds = useSortedRowIds(
-    'strokes',
-    undefined,
-    false,
-    0,
-    undefined,
-    CANVAS_STORE_ID,
-  );
+  const sortedIds = useSortedRowIds({tableId: 'strokes'}, CANVAS_STORE_ID);
   const strokes = useTable('strokes', CANVAS_STORE_ID);
   const store = useStore(CANVAS_STORE_ID);
 
@@ -29705,7 +30783,9 @@ initial in-memory data does not overwrite persisted data during startup.
 
 - \`README.md\` explains how to run the generated project.
 - \`client/src/CanvasStore.tsx\` configures the primary
-  TinyBase Store, persistence, and synchronization.
+  TinyBase Store.
+- The primary Store file also initializes persistence.
+- The primary Store file also initializes synchronization.
 - \`client/src/App.tsx\` contains the main application UI.
 - \`client/src/config.tsx\` contains synchronization configuration.
 
@@ -29873,13 +30953,13 @@ with the store.
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3",
+    "vite": "^8.1.4",
     "typescript": "^6.0.3",
-    "@types/node": "^26.1.0",
+    "@types/node": "^26.1.1",
     "vite-plugin-solid": "^2.11.12"
   },
   "dependencies": {
-    "tinybase": "^9.0.0",
+    "tinybase": "^9.2.0",
     "solid-js": "^1.9.14",
     "reconnecting-websocket": "^4.4.0"
   }
@@ -30044,14 +31124,7 @@ export const Canvas = () => {
   let isDrawing = false;
   let currentStrokeId: string | null = null;
   const settings = useValues(SETTINGS_STORE_ID);
-  const sortedIds = useSortedRowIds(
-    'strokes',
-    undefined,
-    false,
-    0,
-    undefined,
-    CANVAS_STORE_ID,
-  );
+  const sortedIds = useSortedRowIds({tableId: 'strokes'}, CANVAS_STORE_ID);
   const strokes = useTable('strokes', CANVAS_STORE_ID);
   const store = useStore(CANVAS_STORE_ID);
 
@@ -30684,7 +31757,8 @@ initial in-memory data does not overwrite persisted data during startup.
 
 - \`README.md\` explains how to run the generated project.
 - \`client/src/CanvasStore.tsx\` configures the primary
-  TinyBase Store, persistence.
+  TinyBase Store.
+- The primary Store file also initializes persistence.
 - \`client/src/App.tsx\` contains the main application UI.
 
 ## Working Method
@@ -30838,13 +31912,13 @@ with the store.
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3",
+    "vite": "^8.1.4",
     "typescript": "^6.0.3",
-    "@types/node": "^26.1.0",
+    "@types/node": "^26.1.1",
     "vite-plugin-solid": "^2.11.12"
   },
   "dependencies": {
-    "tinybase": "^9.0.0",
+    "tinybase": "^9.2.0",
     "solid-js": "^1.9.14",
     "@sqlite.org/sqlite-wasm": "^3.53.0-build1"
   }
@@ -31062,14 +32136,7 @@ export const Canvas = () => {
   let isDrawing = false;
   let currentStrokeId: string | null = null;
   const settings = useValues(SETTINGS_STORE_ID);
-  const sortedIds = useSortedRowIds(
-    'strokes',
-    undefined,
-    false,
-    0,
-    undefined,
-    CANVAS_STORE_ID,
-  );
+  const sortedIds = useSortedRowIds({tableId: 'strokes'}, CANVAS_STORE_ID);
   const strokes = useTable('strokes', CANVAS_STORE_ID);
   const store = useStore(CANVAS_STORE_ID);
 
@@ -31711,7 +32778,8 @@ initial in-memory data does not overwrite persisted data during startup.
 
 - \`README.md\` explains how to run the generated project.
 - \`client/src/Store.tsx\` configures the primary
-  TinyBase Store, persistence.
+  TinyBase Store.
+- The primary Store file also initializes persistence.
 - \`client/src/App.tsx\` contains the main application UI.
 
 ## Working Method
@@ -31863,13 +32931,13 @@ with the store.
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3",
+    "vite": "^8.1.4",
     "typescript": "^6.0.3",
-    "@types/node": "^26.1.0",
+    "@types/node": "^26.1.1",
     "vite-plugin-solid": "^2.11.12"
   },
   "dependencies": {
-    "tinybase": "^9.0.0",
+    "tinybase": "^9.2.0",
     "solid-js": "^1.9.14"
   }
 }
@@ -32557,7 +33625,9 @@ initial in-memory data does not overwrite persisted data during startup.
 
 - \`README.md\` explains how to run the generated project.
 - \`client/src/Store.tsx\` configures the primary
-  TinyBase Store, persistence, and synchronization.
+  TinyBase Store.
+- The primary Store file also initializes persistence.
+- The primary Store file also initializes synchronization.
 - \`client/src/App.tsx\` contains the main application UI.
 - \`client/src/config.tsx\` contains synchronization configuration.
 
@@ -32723,13 +33793,13 @@ with the store.
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3",
+    "vite": "^8.1.4",
     "typescript": "^6.0.3",
-    "@types/node": "^26.1.0",
+    "@types/node": "^26.1.1",
     "vite-plugin-solid": "^2.11.12"
   },
   "dependencies": {
-    "tinybase": "^9.0.0",
+    "tinybase": "^9.2.0",
     "solid-js": "^1.9.14",
     "reconnecting-websocket": "^4.4.0"
   }
@@ -33456,7 +34526,8 @@ initial in-memory data does not overwrite persisted data during startup.
 
 - \`README.md\` explains how to run the generated project.
 - \`client/src/Store.tsx\` configures the primary
-  TinyBase Store, persistence.
+  TinyBase Store.
+- The primary Store file also initializes persistence.
 - \`client/src/App.tsx\` contains the main application UI.
 
 ## Working Method
@@ -33608,13 +34679,13 @@ with the store.
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3",
+    "vite": "^8.1.4",
     "typescript": "^6.0.3",
-    "@types/node": "^26.1.0",
+    "@types/node": "^26.1.1",
     "vite-plugin-solid": "^2.11.12"
   },
   "dependencies": {
-    "tinybase": "^9.0.0",
+    "tinybase": "^9.2.0",
     "solid-js": "^1.9.14",
     "@sqlite.org/sqlite-wasm": "^3.53.0-build1"
   }
@@ -34399,7 +35470,8 @@ initial in-memory data does not overwrite persisted data during startup.
 
 - \`README.md\` explains how to run the generated project.
 - \`client/src/Store.tsx\` configures the primary
-  TinyBase Store, persistence.
+  TinyBase Store.
+- The primary Store file also initializes persistence.
 - \`client/src/App.tsx\` contains the main application UI.
 
 ## Working Method
@@ -34553,13 +35625,13 @@ with the store.
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3",
+    "vite": "^8.1.4",
     "typescript": "^6.0.3",
-    "@types/node": "^26.1.0",
+    "@types/node": "^26.1.1",
     "vite-plugin-solid": "^2.11.12"
   },
   "dependencies": {
-    "tinybase": "^9.0.0",
+    "tinybase": "^9.2.0",
     "solid-js": "^1.9.14"
   }
 }
@@ -34839,14 +35911,7 @@ import {useSortedRowIds, STORE_ID} from './Store';
 import {TodoItem} from './TodoItem';
 
 export const TodoList = () => {
-  const todoIds = useSortedRowIds(
-    'todos',
-    undefined,
-    false,
-    0,
-    undefined,
-    STORE_ID,
-  );
+  const todoIds = useSortedRowIds({tableId: 'todos'}, STORE_ID);
 
   return (
     <div id="todoList">
@@ -35213,7 +36278,9 @@ initial in-memory data does not overwrite persisted data during startup.
 
 - \`README.md\` explains how to run the generated project.
 - \`client/src/Store.tsx\` configures the primary
-  TinyBase Store, persistence, and synchronization.
+  TinyBase Store.
+- The primary Store file also initializes persistence.
+- The primary Store file also initializes synchronization.
 - \`client/src/App.tsx\` contains the main application UI.
 - \`client/src/config.tsx\` contains synchronization configuration.
 
@@ -35381,13 +36448,13 @@ with the store.
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3",
+    "vite": "^8.1.4",
     "typescript": "^6.0.3",
-    "@types/node": "^26.1.0",
+    "@types/node": "^26.1.1",
     "vite-plugin-solid": "^2.11.12"
   },
   "dependencies": {
-    "tinybase": "^9.0.0",
+    "tinybase": "^9.2.0",
     "solid-js": "^1.9.14",
     "reconnecting-websocket": "^4.4.0"
   }
@@ -35699,14 +36766,7 @@ import {useSortedRowIds, STORE_ID} from './Store';
 import {TodoItem} from './TodoItem';
 
 export const TodoList = () => {
-  const todoIds = useSortedRowIds(
-    'todos',
-    undefined,
-    false,
-    0,
-    undefined,
-    STORE_ID,
-  );
+  const todoIds = useSortedRowIds({tableId: 'todos'}, STORE_ID);
 
   return (
     <div id="todoList">
@@ -36080,7 +37140,9 @@ initial in-memory data does not overwrite persisted data during startup.
 
 - \`README.md\` explains how to run the generated project.
 - \`client/src/Store.tsx\` configures the primary
-  TinyBase Store, persistence, and synchronization.
+  TinyBase Store.
+- The primary Store file also initializes persistence.
+- The primary Store file also initializes synchronization.
 - \`client/src/App.tsx\` contains the main application UI.
 - \`client/src/config.tsx\` contains synchronization configuration.
 
@@ -36250,13 +37312,13 @@ with the store.
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3",
+    "vite": "^8.1.4",
     "typescript": "^6.0.3",
-    "@types/node": "^26.1.0",
+    "@types/node": "^26.1.1",
     "vite-plugin-solid": "^2.11.12"
   },
   "dependencies": {
-    "tinybase": "^9.0.0",
+    "tinybase": "^9.2.0",
     "solid-js": "^1.9.14",
     "reconnecting-websocket": "^4.4.0"
   }
@@ -36574,14 +37636,7 @@ import {useSortedRowIds, STORE_ID} from './Store';
 import {TodoItem} from './TodoItem';
 
 export const TodoList = () => {
-  const todoIds = useSortedRowIds(
-    'todos',
-    undefined,
-    false,
-    0,
-    undefined,
-    STORE_ID,
-  );
+  const todoIds = useSortedRowIds({tableId: 'todos'}, STORE_ID);
 
   return (
     <div id="todoList">
@@ -36964,7 +38019,8 @@ initial in-memory data does not overwrite persisted data during startup.
 
 - \`README.md\` explains how to run the generated project.
 - \`client/src/Store.tsx\` configures the primary
-  TinyBase Store, persistence.
+  TinyBase Store.
+- The primary Store file also initializes persistence.
 - \`client/src/App.tsx\` contains the main application UI.
 
 ## Working Method
@@ -37118,13 +38174,13 @@ with the store.
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3",
+    "vite": "^8.1.4",
     "typescript": "^6.0.3",
-    "@types/node": "^26.1.0",
+    "@types/node": "^26.1.1",
     "vite-plugin-solid": "^2.11.12"
   },
   "dependencies": {
-    "tinybase": "^9.0.0",
+    "tinybase": "^9.2.0",
     "solid-js": "^1.9.14",
     "@sqlite.org/sqlite-wasm": "^3.53.0-build1"
   }
@@ -37472,14 +38528,7 @@ import {useSortedRowIds, STORE_ID} from './Store';
 import {TodoItem} from './TodoItem';
 
 export const TodoList = () => {
-  const todoIds = useSortedRowIds(
-    'todos',
-    undefined,
-    false,
-    0,
-    undefined,
-    STORE_ID,
-  );
+  const todoIds = useSortedRowIds({tableId: 'todos'}, STORE_ID);
 
   return (
     <div id="todoList">
@@ -37875,7 +38924,8 @@ initial in-memory data does not overwrite persisted data during startup.
 
 - \`README.md\` explains how to run the generated project.
 - \`client/src/chatStore.ts\` configures the primary
-  TinyBase Store, persistence.
+  TinyBase Store.
+- The primary Store file also initializes persistence.
 - \`client/src/App.svelte\` contains the main application UI.
 
 ## Working Method
@@ -38025,16 +39075,16 @@ stays synchronized with the underlying TinyBase store.
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3",
+    "vite": "^8.1.4",
     "typescript": "^6.0.3",
-    "@types/node": "^26.1.0",
+    "@types/node": "^26.1.1",
     "@tsconfig/svelte": "^5.0.8",
-    "svelte-check": "^4.7.1",
-    "@sveltejs/vite-plugin-svelte": "^7.1.2",
+    "svelte-check": "^4.7.2",
+    "@sveltejs/vite-plugin-svelte": "^7.2.0",
     "svelte": "^5.56.4"
   },
   "dependencies": {
-    "tinybase": "^9.0.0"
+    "tinybase": "^9.2.0"
   }
 }
 ",
@@ -38297,11 +39347,7 @@ stays synchronized with the underlying TinyBase store.
   import {STORE_ID} from './chatStore';
 
   const messageIds = getSortedRowIds(
-    'messages',
-    'timestamp',
-    false,
-    0,
-    undefined,
+    {tableId: 'messages', cellId: 'timestamp'},
     STORE_ID,
   ) as {readonly current: string[]};
 </script>
@@ -38750,7 +39796,9 @@ initial in-memory data does not overwrite persisted data during startup.
 
 - \`README.md\` explains how to run the generated project.
 - \`client/src/chatStore.ts\` configures the primary
-  TinyBase Store, persistence, and synchronization.
+  TinyBase Store.
+- The primary Store file also initializes persistence.
+- The primary Store file also initializes synchronization.
 - \`client/src/App.svelte\` contains the main application UI.
 - \`client/src/config.ts\` contains synchronization configuration.
 
@@ -38914,16 +39962,16 @@ stays synchronized with the underlying TinyBase store.
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3",
+    "vite": "^8.1.4",
     "typescript": "^6.0.3",
-    "@types/node": "^26.1.0",
+    "@types/node": "^26.1.1",
     "@tsconfig/svelte": "^5.0.8",
-    "svelte-check": "^4.7.1",
-    "@sveltejs/vite-plugin-svelte": "^7.1.2",
+    "svelte-check": "^4.7.2",
+    "@sveltejs/vite-plugin-svelte": "^7.2.0",
     "svelte": "^5.56.4"
   },
   "dependencies": {
-    "tinybase": "^9.0.0",
+    "tinybase": "^9.2.0",
     "reconnecting-websocket": "^4.4.0"
   }
 }
@@ -39211,11 +40259,7 @@ stays synchronized with the underlying TinyBase store.
   import {STORE_ID} from './chatStore';
 
   const messageIds = getSortedRowIds(
-    'messages',
-    'timestamp',
-    false,
-    0,
-    undefined,
+    {tableId: 'messages', cellId: 'timestamp'},
     STORE_ID,
   ) as {readonly current: string[]};
 </script>
@@ -39671,7 +40715,8 @@ initial in-memory data does not overwrite persisted data during startup.
 
 - \`README.md\` explains how to run the generated project.
 - \`client/src/chatStore.ts\` configures the primary
-  TinyBase Store, persistence.
+  TinyBase Store.
+- The primary Store file also initializes persistence.
 - \`client/src/App.svelte\` contains the main application UI.
 
 ## Working Method
@@ -39821,16 +40866,16 @@ stays synchronized with the underlying TinyBase store.
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3",
+    "vite": "^8.1.4",
     "typescript": "^6.0.3",
-    "@types/node": "^26.1.0",
+    "@types/node": "^26.1.1",
     "@tsconfig/svelte": "^5.0.8",
-    "svelte-check": "^4.7.1",
-    "@sveltejs/vite-plugin-svelte": "^7.1.2",
+    "svelte-check": "^4.7.2",
+    "@sveltejs/vite-plugin-svelte": "^7.2.0",
     "svelte": "^5.56.4"
   },
   "dependencies": {
-    "tinybase": "^9.0.0",
+    "tinybase": "^9.2.0",
     "@sqlite.org/sqlite-wasm": "^3.53.0-build1"
   }
 }
@@ -40159,11 +41204,7 @@ stays synchronized with the underlying TinyBase store.
   import {STORE_ID} from './chatStore';
 
   const messageIds = getSortedRowIds(
-    'messages',
-    'timestamp',
-    false,
-    0,
-    undefined,
+    {tableId: 'messages', cellId: 'timestamp'},
     STORE_ID,
   ) as {readonly current: string[]};
 </script>
@@ -40643,7 +41684,8 @@ initial in-memory data does not overwrite persisted data during startup.
 
 - \`README.md\` explains how to run the generated project.
 - \`client/src/canvasStore.ts\` configures the primary
-  TinyBase Store, persistence.
+  TinyBase Store.
+- The primary Store file also initializes persistence.
 - \`client/src/App.svelte\` contains the main application UI.
 
 ## Working Method
@@ -40793,16 +41835,16 @@ stays synchronized with the underlying TinyBase store.
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3",
+    "vite": "^8.1.4",
     "typescript": "^6.0.3",
-    "@types/node": "^26.1.0",
+    "@types/node": "^26.1.1",
     "@tsconfig/svelte": "^5.0.8",
-    "svelte-check": "^4.7.1",
-    "@sveltejs/vite-plugin-svelte": "^7.1.2",
+    "svelte-check": "^4.7.2",
+    "@sveltejs/vite-plugin-svelte": "^7.2.0",
     "svelte": "^5.56.4"
   },
   "dependencies": {
-    "tinybase": "^9.0.0"
+    "tinybase": "^9.2.0"
   }
 }
 ",
@@ -41551,7 +42593,9 @@ initial in-memory data does not overwrite persisted data during startup.
 
 - \`README.md\` explains how to run the generated project.
 - \`client/src/canvasStore.ts\` configures the primary
-  TinyBase Store, persistence, and synchronization.
+  TinyBase Store.
+- The primary Store file also initializes persistence.
+- The primary Store file also initializes synchronization.
 - \`client/src/App.svelte\` contains the main application UI.
 - \`client/src/config.ts\` contains synchronization configuration.
 
@@ -41715,16 +42759,16 @@ stays synchronized with the underlying TinyBase store.
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3",
+    "vite": "^8.1.4",
     "typescript": "^6.0.3",
-    "@types/node": "^26.1.0",
+    "@types/node": "^26.1.1",
     "@tsconfig/svelte": "^5.0.8",
-    "svelte-check": "^4.7.1",
-    "@sveltejs/vite-plugin-svelte": "^7.1.2",
+    "svelte-check": "^4.7.2",
+    "@sveltejs/vite-plugin-svelte": "^7.2.0",
     "svelte": "^5.56.4"
   },
   "dependencies": {
-    "tinybase": "^9.0.0",
+    "tinybase": "^9.2.0",
     "reconnecting-websocket": "^4.4.0"
   }
 }
@@ -42505,7 +43549,8 @@ initial in-memory data does not overwrite persisted data during startup.
 
 - \`README.md\` explains how to run the generated project.
 - \`client/src/canvasStore.ts\` configures the primary
-  TinyBase Store, persistence.
+  TinyBase Store.
+- The primary Store file also initializes persistence.
 - \`client/src/App.svelte\` contains the main application UI.
 
 ## Working Method
@@ -42655,16 +43700,16 @@ stays synchronized with the underlying TinyBase store.
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3",
+    "vite": "^8.1.4",
     "typescript": "^6.0.3",
-    "@types/node": "^26.1.0",
+    "@types/node": "^26.1.1",
     "@tsconfig/svelte": "^5.0.8",
-    "svelte-check": "^4.7.1",
-    "@sveltejs/vite-plugin-svelte": "^7.1.2",
+    "svelte-check": "^4.7.2",
+    "@sveltejs/vite-plugin-svelte": "^7.2.0",
     "svelte": "^5.56.4"
   },
   "dependencies": {
-    "tinybase": "^9.0.0",
+    "tinybase": "^9.2.0",
     "@sqlite.org/sqlite-wasm": "^3.53.0-build1"
   }
 }
@@ -43510,7 +44555,8 @@ initial in-memory data does not overwrite persisted data during startup.
 
 - \`README.md\` explains how to run the generated project.
 - \`client/src/store.ts\` configures the primary
-  TinyBase Store, persistence.
+  TinyBase Store.
+- The primary Store file also initializes persistence.
 - \`client/src/App.svelte\` contains the main application UI.
 
 ## Working Method
@@ -43659,16 +44705,16 @@ stays synchronized with the underlying TinyBase store.
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3",
+    "vite": "^8.1.4",
     "typescript": "^6.0.3",
-    "@types/node": "^26.1.0",
+    "@types/node": "^26.1.1",
     "@tsconfig/svelte": "^5.0.8",
-    "svelte-check": "^4.7.1",
-    "@sveltejs/vite-plugin-svelte": "^7.1.2",
+    "svelte-check": "^4.7.2",
+    "@sveltejs/vite-plugin-svelte": "^7.2.0",
     "svelte": "^5.56.4"
   },
   "dependencies": {
-    "tinybase": "^9.0.0"
+    "tinybase": "^9.2.0"
   }
 }
 ",
@@ -44342,7 +45388,9 @@ initial in-memory data does not overwrite persisted data during startup.
 
 - \`README.md\` explains how to run the generated project.
 - \`client/src/store.ts\` configures the primary
-  TinyBase Store, persistence, and synchronization.
+  TinyBase Store.
+- The primary Store file also initializes persistence.
+- The primary Store file also initializes synchronization.
 - \`client/src/App.svelte\` contains the main application UI.
 - \`client/src/config.ts\` contains synchronization configuration.
 
@@ -44505,16 +45553,16 @@ stays synchronized with the underlying TinyBase store.
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3",
+    "vite": "^8.1.4",
     "typescript": "^6.0.3",
-    "@types/node": "^26.1.0",
+    "@types/node": "^26.1.1",
     "@tsconfig/svelte": "^5.0.8",
-    "svelte-check": "^4.7.1",
-    "@sveltejs/vite-plugin-svelte": "^7.1.2",
+    "svelte-check": "^4.7.2",
+    "@sveltejs/vite-plugin-svelte": "^7.2.0",
     "svelte": "^5.56.4"
   },
   "dependencies": {
-    "tinybase": "^9.0.0",
+    "tinybase": "^9.2.0",
     "reconnecting-websocket": "^4.4.0"
   }
 }
@@ -45220,7 +46268,8 @@ initial in-memory data does not overwrite persisted data during startup.
 
 - \`README.md\` explains how to run the generated project.
 - \`client/src/store.ts\` configures the primary
-  TinyBase Store, persistence.
+  TinyBase Store.
+- The primary Store file also initializes persistence.
 - \`client/src/App.svelte\` contains the main application UI.
 
 ## Working Method
@@ -45369,16 +46418,16 @@ stays synchronized with the underlying TinyBase store.
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3",
+    "vite": "^8.1.4",
     "typescript": "^6.0.3",
-    "@types/node": "^26.1.0",
+    "@types/node": "^26.1.1",
     "@tsconfig/svelte": "^5.0.8",
-    "svelte-check": "^4.7.1",
-    "@sveltejs/vite-plugin-svelte": "^7.1.2",
+    "svelte-check": "^4.7.2",
+    "@sveltejs/vite-plugin-svelte": "^7.2.0",
     "svelte": "^5.56.4"
   },
   "dependencies": {
-    "tinybase": "^9.0.0",
+    "tinybase": "^9.2.0",
     "@sqlite.org/sqlite-wasm": "^3.53.0-build1"
   }
 }
@@ -46147,7 +47196,8 @@ initial in-memory data does not overwrite persisted data during startup.
 
 - \`README.md\` explains how to run the generated project.
 - \`client/src/store.ts\` configures the primary
-  TinyBase Store, persistence.
+  TinyBase Store.
+- The primary Store file also initializes persistence.
 - \`client/src/App.svelte\` contains the main application UI.
 
 ## Working Method
@@ -46296,16 +47346,16 @@ stays synchronized with the underlying TinyBase store.
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3",
+    "vite": "^8.1.4",
     "typescript": "^6.0.3",
-    "@types/node": "^26.1.0",
+    "@types/node": "^26.1.1",
     "@tsconfig/svelte": "^5.0.8",
-    "svelte-check": "^4.7.1",
-    "@sveltejs/vite-plugin-svelte": "^7.1.2",
+    "svelte-check": "^4.7.2",
+    "@sveltejs/vite-plugin-svelte": "^7.2.0",
     "svelte": "^5.56.4"
   },
   "dependencies": {
-    "tinybase": "^9.0.0"
+    "tinybase": "^9.2.0"
   }
 }
 ",
@@ -46532,14 +47582,7 @@ stays synchronized with the underlying TinyBase store.
   import TodoItem from './TodoItem.svelte';
   import {STORE_ID} from './store';
 
-  const todoIds = getSortedRowIds(
-    'todos',
-    undefined,
-    false,
-    0,
-    undefined,
-    STORE_ID,
-  );
+  const todoIds = getSortedRowIds({tableId: 'todos'}, STORE_ID);
 </script>
 
 <div id="todoList">
@@ -46916,7 +47959,9 @@ initial in-memory data does not overwrite persisted data during startup.
 
 - \`README.md\` explains how to run the generated project.
 - \`client/src/store.ts\` configures the primary
-  TinyBase Store, persistence, and synchronization.
+  TinyBase Store.
+- The primary Store file also initializes persistence.
+- The primary Store file also initializes synchronization.
 - \`client/src/App.svelte\` contains the main application UI.
 - \`client/src/config.ts\` contains synchronization configuration.
 
@@ -47079,16 +48124,16 @@ stays synchronized with the underlying TinyBase store.
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3",
+    "vite": "^8.1.4",
     "typescript": "^6.0.3",
-    "@types/node": "^26.1.0",
+    "@types/node": "^26.1.1",
     "@tsconfig/svelte": "^5.0.8",
-    "svelte-check": "^4.7.1",
-    "@sveltejs/vite-plugin-svelte": "^7.1.2",
+    "svelte-check": "^4.7.2",
+    "@sveltejs/vite-plugin-svelte": "^7.2.0",
     "svelte": "^5.56.4"
   },
   "dependencies": {
-    "tinybase": "^9.0.0",
+    "tinybase": "^9.2.0",
     "reconnecting-websocket": "^4.4.0"
   }
 }
@@ -47340,14 +48385,7 @@ stays synchronized with the underlying TinyBase store.
   import TodoItem from './TodoItem.svelte';
   import {STORE_ID} from './store';
 
-  const todoIds = getSortedRowIds(
-    'todos',
-    undefined,
-    false,
-    0,
-    undefined,
-    STORE_ID,
-  );
+  const todoIds = getSortedRowIds({tableId: 'todos'}, STORE_ID);
 </script>
 
 <div id="todoList">
@@ -47731,7 +48769,8 @@ initial in-memory data does not overwrite persisted data during startup.
 
 - \`README.md\` explains how to run the generated project.
 - \`client/src/store.ts\` configures the primary
-  TinyBase Store, persistence.
+  TinyBase Store.
+- The primary Store file also initializes persistence.
 - \`client/src/App.svelte\` contains the main application UI.
 
 ## Working Method
@@ -47880,16 +48919,16 @@ stays synchronized with the underlying TinyBase store.
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3",
+    "vite": "^8.1.4",
     "typescript": "^6.0.3",
-    "@types/node": "^26.1.0",
+    "@types/node": "^26.1.1",
     "@tsconfig/svelte": "^5.0.8",
-    "svelte-check": "^4.7.1",
-    "@sveltejs/vite-plugin-svelte": "^7.1.2",
+    "svelte-check": "^4.7.2",
+    "@sveltejs/vite-plugin-svelte": "^7.2.0",
     "svelte": "^5.56.4"
   },
   "dependencies": {
-    "tinybase": "^9.0.0",
+    "tinybase": "^9.2.0",
     "@sqlite.org/sqlite-wasm": "^3.53.0-build1"
   }
 }
@@ -48182,14 +49221,7 @@ stays synchronized with the underlying TinyBase store.
   import TodoItem from './TodoItem.svelte';
   import {STORE_ID} from './store';
 
-  const todoIds = getSortedRowIds(
-    'todos',
-    undefined,
-    false,
-    0,
-    undefined,
-    STORE_ID,
-  );
+  const todoIds = getSortedRowIds({tableId: 'todos'}, STORE_ID);
 </script>
 
 <div id="todoList">
@@ -48595,7 +49627,8 @@ initial in-memory data does not overwrite persisted data during startup.
 
 - \`README.md\` explains how to run the generated project.
 - \`client/src/chatStore.ts\` configures the primary
-  TinyBase Store, persistence.
+  TinyBase Store.
+- The primary Store file also initializes persistence.
 - \`client/src/app.ts\` contains the main application UI.
 
 ## Working Method
@@ -48740,12 +49773,12 @@ Your data is automatically saved and restored when you reload the page.
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3",
+    "vite": "^8.1.4",
     "typescript": "^6.0.3",
-    "@types/node": "^26.1.0"
+    "@types/node": "^26.1.1"
   },
   "dependencies": {
-    "tinybase": "^9.0.0"
+    "tinybase": "^9.2.0"
   }
 }
 ",
@@ -49434,7 +50467,8 @@ initial in-memory data does not overwrite persisted data during startup.
 
 - \`README.md\` explains how to run the generated project.
 - \`client/src/canvasStore.ts\` configures the primary
-  TinyBase Store, persistence.
+  TinyBase Store.
+- The primary Store file also initializes persistence.
 - \`client/src/app.ts\` contains the main application UI.
 
 ## Working Method
@@ -49579,12 +50613,12 @@ Your data is automatically saved and restored when you reload the page.
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3",
+    "vite": "^8.1.4",
     "typescript": "^6.0.3",
-    "@types/node": "^26.1.0"
+    "@types/node": "^26.1.1"
   },
   "dependencies": {
-    "tinybase": "^9.0.0"
+    "tinybase": "^9.2.0"
   }
 }
 ",
@@ -50310,7 +51344,8 @@ initial in-memory data does not overwrite persisted data during startup.
 
 - \`README.md\` explains how to run the generated project.
 - \`client/src/store.ts\` configures the primary
-  TinyBase Store, persistence.
+  TinyBase Store.
+- The primary Store file also initializes persistence.
 - \`client/src/app.ts\` contains the main application UI.
 
 ## Working Method
@@ -50454,12 +51489,12 @@ Your data is automatically saved and restored when you reload the page.
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3",
+    "vite": "^8.1.4",
     "typescript": "^6.0.3",
-    "@types/node": "^26.1.0"
+    "@types/node": "^26.1.1"
   },
   "dependencies": {
-    "tinybase": "^9.0.0"
+    "tinybase": "^9.2.0"
   }
 }
 ",
@@ -51099,7 +52134,8 @@ initial in-memory data does not overwrite persisted data during startup.
 
 - \`README.md\` explains how to run the generated project.
 - \`client/src/store.ts\` configures the primary
-  TinyBase Store, persistence.
+  TinyBase Store.
+- The primary Store file also initializes persistence.
 - \`client/src/app.ts\` contains the main application UI.
 
 ## Working Method
@@ -51243,13 +52279,13 @@ Your data is automatically saved and restored when you reload the page.
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3",
+    "vite": "^8.1.4",
     "typescript": "^6.0.3",
-    "@types/node": "^26.1.0",
+    "@types/node": "^26.1.1",
     "vite-plugin-static-copy": "^4.1.1"
   },
   "dependencies": {
-    "tinybase": "^9.0.0",
+    "tinybase": "^9.2.0",
     "@electric-sql/pglite": "^0.5.4"
   }
 }
@@ -51939,7 +52975,8 @@ initial in-memory data does not overwrite persisted data during startup.
 
 - \`README.md\` explains how to run the generated project.
 - \`client/src/store.ts\` configures the primary
-  TinyBase Store, persistence.
+  TinyBase Store.
+- The primary Store file also initializes persistence.
 - \`client/src/app.ts\` contains the main application UI.
 
 ## Working Method
@@ -52083,12 +53120,12 @@ Your data is automatically saved and restored when you reload the page.
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.3",
+    "vite": "^8.1.4",
     "typescript": "^6.0.3",
-    "@types/node": "^26.1.0"
+    "@types/node": "^26.1.1"
   },
   "dependencies": {
-    "tinybase": "^9.0.0"
+    "tinybase": "^9.2.0"
   }
 }
 ",

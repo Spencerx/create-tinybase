@@ -8,11 +8,7 @@
   import { STORE_ID } from './chatStore';
 
   const messageIds = getSortedRowIds(
-    'messages',
-    'timestamp',
-    false,
-    0,
-    undefined,
+    {tableId: 'messages', cellId: 'timestamp'},
     STORE_ID,
   ){{#if typescript}} as { readonly current: string[] }{{/if}};
 </script>

@@ -12,7 +12,7 @@ let canvas!: HTMLCanvasElement;
 let isDrawing = false;
 let currentStrokeId: string | null = null;
 const settings = useValues(SETTINGS_STORE_ID);
-const sortedIds = useSortedRowIds('strokes', undefined, false, 0, undefined, CANVAS_STORE_ID);
+const sortedIds = useSortedRowIds({tableId: 'strokes'}, CANVAS_STORE_ID);
 const strokes = useTable('strokes', CANVAS_STORE_ID);
 const store = useStore(CANVAS_STORE_ID);
 
