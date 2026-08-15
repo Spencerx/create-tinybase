@@ -9,14 +9,14 @@ export const STORE_ID = 'game';
 {{#if schemas}}
   export const TABLES_SCHEMA = {
   board: {
-  value: {type: 'string', default: ''},
+  value: {enum: ['', 'X', 'O'], default: ''},
   },
   } as const;
 
   export const VALUES_SCHEMA = {
-  currentPlayer: {type: 'string'},
-  gameStatus: {type: 'string'},
-  winner: {type: 'string', default: ''},
+  currentPlayer: {enum: ['X', 'O']},
+  gameStatus: {enum: ['playing', 'won', 'draw']},
+  winner: {enum: ['', 'X', 'O'], default: ''},
   winningLine: {type: 'string', default: ''},
   } as const;
 

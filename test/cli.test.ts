@@ -341,6 +341,15 @@ const combinations: Combination[] = [
     name: 'ts-react-game',
   },
   {
+    language: 'typescript',
+    framework: 'react',
+    appType: 'game',
+    syncType: 'none',
+    persistenceType: 'local-storage',
+    schemas: true,
+    name: 'ts-react-game-schemas',
+  },
+  {
     language: 'javascript',
     framework: 'solid',
     appType: 'game',

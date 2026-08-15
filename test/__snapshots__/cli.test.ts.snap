@@ -186,7 +186,7 @@ with the store.
     "@vitejs/plugin-react": "^6.0.5"
   },
   "dependencies": {
-    "tinybase": "^9.4.0",
+    "tinybase": "^9.5.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8"
   }
@@ -1023,7 +1023,7 @@ with the store.
     "@vitejs/plugin-react": "^6.0.5"
   },
   "dependencies": {
-    "tinybase": "^9.4.0",
+    "tinybase": "^9.5.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8"
   }
@@ -1852,7 +1852,7 @@ with the store.
     "@vitejs/plugin-react": "^6.0.5"
   },
   "dependencies": {
-    "tinybase": "^9.4.0",
+    "tinybase": "^9.5.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
     "@sqlite.org/sqlite-wasm": "^3.53.0-build1"
@@ -2779,7 +2779,7 @@ with the store.
     "@vitejs/plugin-react": "^6.0.5"
   },
   "dependencies": {
-    "tinybase": "^9.4.0",
+    "tinybase": "^9.5.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8"
   }
@@ -3652,7 +3652,7 @@ with the store.
     "@vitejs/plugin-react": "^6.0.5"
   },
   "dependencies": {
-    "tinybase": "^9.4.0",
+    "tinybase": "^9.5.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8"
   }
@@ -4456,7 +4456,7 @@ with the store.
     "@vitejs/plugin-react": "^6.0.5"
   },
   "dependencies": {
-    "tinybase": "^9.4.0",
+    "tinybase": "^9.5.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8"
   }
@@ -5279,7 +5279,7 @@ The \`server\` directory contains your Cloudflare Durable Objects WebSocket serv
     "@vitejs/plugin-react": "^6.0.5"
   },
   "dependencies": {
-    "tinybase": "^9.4.0",
+    "tinybase": "^9.5.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
     "reconnecting-websocket": "^4.4.0",
@@ -6029,11 +6029,11 @@ export default {
     "start": "wrangler dev"
   },
   "dependencies": {
-    "tinybase": "^9.4.0"
+    "tinybase": "^9.5.0"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^5.20260808.1",
-    "wrangler": "^4.120.0"
+    "@cloudflare/workers-types": "^5.20260815.1",
+    "wrangler": "^4.123.0"
   }
 }
 ",
@@ -6240,7 +6240,7 @@ with the store.
     "vite-plugin-solid": "^2.11.14"
   },
   "dependencies": {
-    "tinybase": "^9.4.0",
+    "tinybase": "^9.5.0",
     "solid-js": "^1.9.14"
   }
 }
@@ -7062,7 +7062,7 @@ with the store.
     "vite-plugin-solid": "^2.11.14"
   },
   "dependencies": {
-    "tinybase": "^9.4.0",
+    "tinybase": "^9.5.0",
     "solid-js": "^1.9.14"
   }
 }
@@ -7931,7 +7931,7 @@ with the store.
     "vite-plugin-solid": "^2.11.14"
   },
   "dependencies": {
-    "tinybase": "^9.4.0",
+    "tinybase": "^9.5.0",
     "solid-js": "^1.9.14"
   }
 }
@@ -8732,7 +8732,7 @@ with the store.
     "vite-plugin-solid": "^2.11.14"
   },
   "dependencies": {
-    "tinybase": "^9.4.0",
+    "tinybase": "^9.5.0",
     "solid-js": "^1.9.14"
   }
 }
@@ -9483,10 +9483,10 @@ stays synchronized with the underlying TinyBase store.
   "devDependencies": {
     "vite": "^8.2.1",
     "@sveltejs/vite-plugin-svelte": "^7.3.0",
-    "svelte": "^5.56.8"
+    "svelte": "^5.56.9"
   },
   "dependencies": {
-    "tinybase": "^9.4.0"
+    "tinybase": "^9.5.0"
   }
 }
 ",
@@ -10290,10 +10290,10 @@ stays synchronized with the underlying TinyBase store.
   "devDependencies": {
     "vite": "^8.2.1",
     "@sveltejs/vite-plugin-svelte": "^7.3.0",
-    "svelte": "^5.56.8"
+    "svelte": "^5.56.9"
   },
   "dependencies": {
-    "tinybase": "^9.4.0"
+    "tinybase": "^9.5.0"
   }
 }
 ",
@@ -11140,10 +11140,10 @@ stays synchronized with the underlying TinyBase store.
   "devDependencies": {
     "vite": "^8.2.1",
     "@sveltejs/vite-plugin-svelte": "^7.3.0",
-    "svelte": "^5.56.8"
+    "svelte": "^5.56.9"
   },
   "dependencies": {
-    "tinybase": "^9.4.0"
+    "tinybase": "^9.5.0"
   }
 }
 ",
@@ -11900,10 +11900,10 @@ stays synchronized with the underlying TinyBase store.
   "devDependencies": {
     "vite": "^8.2.1",
     "@sveltejs/vite-plugin-svelte": "^7.3.0",
-    "svelte": "^5.56.8"
+    "svelte": "^5.56.9"
   },
   "dependencies": {
-    "tinybase": "^9.4.0"
+    "tinybase": "^9.5.0"
   }
 }
 ",
@@ -12607,7 +12607,7 @@ Your data is automatically saved and restored when you reload the page.
     "vite": "^8.2.1"
   },
   "dependencies": {
-    "tinybase": "^9.4.0"
+    "tinybase": "^9.5.0"
   }
 }
 ",
@@ -13393,7 +13393,7 @@ Your data is automatically saved and restored when you reload the page.
     "vite": "^8.2.1"
   },
   "dependencies": {
-    "tinybase": "^9.4.0"
+    "tinybase": "^9.5.0"
   }
 }
 ",
@@ -14210,7 +14210,7 @@ The app uses **TinyBase** to manage application state in a reactive data store.
     "vite": "^8.2.1"
   },
   "dependencies": {
-    "tinybase": "^9.4.0"
+    "tinybase": "^9.5.0"
   }
 }
 ",
@@ -15030,7 +15030,7 @@ Your data is automatically saved and restored when you reload the page.
     "vite": "^8.2.1"
   },
   "dependencies": {
-    "tinybase": "^9.4.0"
+    "tinybase": "^9.5.0"
   }
 }
 ",
@@ -15778,7 +15778,7 @@ Your data is automatically saved and restored when you reload the page.
     "vite": "^8.2.1"
   },
   "dependencies": {
-    "tinybase": "^9.4.0"
+    "tinybase": "^9.5.0"
   }
 }
 ",
@@ -16513,7 +16513,7 @@ with the store.
     "@vitejs/plugin-react": "^6.0.5"
   },
   "dependencies": {
-    "tinybase": "^9.4.0",
+    "tinybase": "^9.5.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8"
   }
@@ -17398,7 +17398,7 @@ with the store.
     "@vitejs/plugin-react": "^6.0.5"
   },
   "dependencies": {
-    "tinybase": "^9.4.0",
+    "tinybase": "^9.5.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8"
   }
@@ -18291,7 +18291,7 @@ components still own the app behavior and store interactions.
     "@vanilla-extract/vite-plugin": "^5.2.6"
   },
   "dependencies": {
-    "tinybase": "^9.4.0",
+    "tinybase": "^9.5.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
     "tinywidgets": "^1.8.0"
@@ -19177,7 +19177,7 @@ with the store.
     "@vitejs/plugin-react": "^6.0.5"
   },
   "dependencies": {
-    "tinybase": "^9.4.0",
+    "tinybase": "^9.5.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8"
   }
@@ -20111,7 +20111,7 @@ The \`server\` directory contains your Node.js WebSocket server.
     "@vitejs/plugin-react": "^6.0.5"
   },
   "dependencies": {
-    "tinybase": "^9.4.0",
+    "tinybase": "^9.5.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
     "reconnecting-websocket": "^4.4.0"
@@ -20870,13 +20870,13 @@ console.log(\`WebSocket server running on ws://localhost:\${PORT}\`);
     "start": "node index.js"
   },
   "dependencies": {
-    "tinybase": "^9.4.0",
+    "tinybase": "^9.5.0",
     "ws": "^8.21.3"
   },
   "devDependencies": {
     "@types/ws": "^8.18.1",
     "typescript": "^6.0.3",
-    "tsx": "^4.23.11"
+    "tsx": "^4.23.12"
   }
 }
 ",
@@ -21074,7 +21074,7 @@ with the store.
     "@vitejs/plugin-react": "^6.0.5"
   },
   "dependencies": {
-    "tinybase": "^9.4.0",
+    "tinybase": "^9.5.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8"
   }
@@ -21996,7 +21996,7 @@ with the store.
     "@vitejs/plugin-react": "^6.0.5"
   },
   "dependencies": {
-    "tinybase": "^9.4.0",
+    "tinybase": "^9.5.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8"
   }
@@ -22656,6 +22656,882 @@ export default defineConfig({
 }
 `;
 
+exports[`create-tinybase > ts-react-game-schemas > should match snapshot 1`] = `
+{
+  "AGENTS.md": "# TinyBase Application Guide
+
+This project was generated by \`create-tinybase\`. Preserve its working data
+lifecycle while adapting the application to the user's requirements.
+
+## Selected Architecture
+
+- **Application**: game
+- **Language**: TypeScript
+- **UI**: React
+- **Store**: MergeableStore
+- **Persistence**: browser Local Storage
+- **Synchronization**: none
+- **Schemas**: enabled
+
+The generator uses a MergeableStore so synchronization can be added or removed
+without changing the application data API. Do not replace it with a regular
+Store unless merge metadata and future synchronization are intentionally
+unnecessary.
+
+The Store is loaded before automatic saving starts. Preserve that ordering so
+initial in-memory data does not overwrite persisted data during startup.
+
+## Key Files
+
+- \`README.md\` explains how to run the generated project.
+- \`client/src/Store.tsx\` configures the primary
+  TinyBase Store.
+- The primary Store file also initializes persistence.
+- \`client/src/App.tsx\` contains the main application UI.
+
+## Working Method
+
+1. Read \`README.md\` and the primary Store file before making changes.
+2. Keep application data in TinyBase rather than duplicating it in UI state.
+3. Use the existing React bindings and generated component patterns.
+4. Keep persistence and synchronization setup separate from application UI.
+5. Run the client build after edits.
+
+## Verification
+
+From \`client\`, run:
+
+\`\`\`sh
+npm run build
+\`\`\`
+
+Change data in the running app, reload the page, and confirm the change remains.
+
+Current TinyBase documentation: https://tinybase.org/llms.txt
+",
+  "README.md": "# test-ts-react-game-schemas
+
+A TinyBase app built with TypeScript and React.
+
+## Getting Started
+
+Alongside this file, you will see a directory called \`client\`.
+
+To start the web client with Vite, run the following commands:
+
+\`\`\`bash
+cd client
+npm install
+npm run dev
+\`\`\`
+
+PNPM, Yarn, and Bun should also work. Your app will be available at
+\`http://localhost:5173\`, or whichever port Vite specifies in the console.
+
+After that, start hacking!
+
+## Structure
+
+This project is organized into a single \`client\` directory:
+
+### Client
+
+The \`client\` directory contains your React-based web application,
+built with Vite and TypeScript.
+
+#### Key Files
+
+- **\`index.html\`**: The main HTML file that loads your app
+- **\`src/index.tsx\`**: Entry point that bootstraps and renders the React app
+- **\`src/App.tsx\`**: Main React component that renders the game
+- **\`src/Store.tsx\`**: TinyBase main store configuration
+
+#### How It Works
+
+The app uses **TinyBase** to manage application state in a reactive data store.
+Type-safe schemas define the structure of your data, providing autocomplete
+and compile-time type checking.
+
+**Persistence** is enabled using browser LocalStorage.
+Your data is automatically saved and restored when you reload the page.
+
+**React Integration**: TinyBase provides React hooks that automatically subscribe
+to store changes and trigger re-renders when data updates. This means your UI
+stays in sync with your data with minimal boilerplate.
+
+Components like \`Game\` uses TinyBase hooks to manage game state to interact
+with the store.
+
+## Learn More
+
+- [TinyBase Documentation](https://tinybase.org)
+- [TinyBase Examples](https://tinybase.org/demos/)
+",
+  "client/.npmrc": "legacy-peer-deps=true
+",
+  "client/index.html": "<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap"
+    />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>TinyBase Game</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        user-select: none;
+        margin: 0;
+        padding: 0;
+        font-family: 'Inter', sans-serif;
+      }
+
+      #root {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+
+      #app {
+        max-width: 60rem;
+        width: 100%;
+        margin: 0 auto;
+        padding: 2rem 1.5rem;
+      }
+
+      body {
+        --hue: 270;
+        --fg: oklch(85% 0.01 var(--hue));
+        --fg2: oklch(60% 0.01 var(--hue));
+        --bg: oklch(20% 0.01 var(--hue));
+        --bg2: oklch(25% 0.01 var(--hue));
+        --border: oklch(30% 0.01 var(--hue));
+        --bg-header: oklch(30% 0.008 var(--hue) / 0.5);
+        --accent: #d81b60;
+        color: var(--fg);
+        background: var(--bg);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="root"></div>
+
+    <script type="module" src="/src/index.tsx"></script>
+  </body>
+</html>
+",
+  "client/package.json": "{
+  "name": "test-ts-react-game-schemas",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^8.2.1",
+    "typescript": "^6.0.3",
+    "@types/node": "^26.2.0",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
+    "@vitejs/plugin-react": "^6.0.5"
+  },
+  "dependencies": {
+    "tinybase": "^9.5.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  }
+}
+",
+  "client/public/favicon.svg": "<svg viewBox="0 0 680 680" xmlns="http://www.w3.org/2000/svg" style="width:680px;height:680px">
+  <path stroke="#fff" stroke-width="80" fill="none"
+    d="M340 617a84 241 90 11.01 0zM131 475a94 254 70 10428-124 114 286 70 01-428 124zm0-140a94 254 70 10428-124 114 286 70 01-428 124zm-12-127a94 254 70 00306 38 90 260 90 01-306-38zm221 3a74 241 90 11.01 0z" />
+  <path fill="#d81b60"
+    d="M131 475a94 254 70 10428-124 114 286 70 01-428 124zm0-140a94 254 70 10428-124 114 286 70 01-428 124z" />
+  <path
+    d="M249 619a94 240 90 00308-128 114 289 70 01-308 128zM119 208a94 254 70 00306 38 90 260 90 01-306-38zm221 3a74 241 90 11.01 0z" />
+</svg>",
+  "client/public/react.svg": "<svg xmlns="http://www.w3.org/2000/svg" viewBox="-11.5 -10.23174 23 20.46348">
+  <title>React Logo</title>
+  <circle cx="0" cy="0" r="2.05" fill="#61dafb" />
+  <g stroke="#61dafb" stroke-width="1" fill="none">
+    <ellipse rx="11" ry="4.2" />
+    <ellipse rx="11" ry="4.2" transform="rotate(60)" />
+    <ellipse rx="11" ry="4.2" transform="rotate(120)" />
+  </g>
+</svg>",
+  "client/public/ts.svg": "<svg fill="none" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg">
+  <rect fill="#3178c6" height="512" width="512" />
+  <path clip-rule="evenodd"
+    d="m316.939 407.424v50.061c8.138 4.172 17.763 7.3 28.875 9.386s22.823 3.129 35.135 3.129c11.999 0 23.397-1.147 34.196-3.442 10.799-2.294 20.268-6.075 28.406-11.342 8.138-5.266 14.581-12.15 19.328-20.65s7.121-19.007 7.121-31.522c0-9.074-1.356-17.026-4.069-23.857s-6.625-12.906-11.738-18.225c-5.112-5.319-11.242-10.091-18.389-14.315s-15.207-8.213-24.18-11.967c-6.573-2.712-12.468-5.345-17.685-7.9-5.217-2.556-9.651-5.163-13.303-7.822-3.652-2.66-6.469-5.476-8.451-8.448-1.982-2.973-2.974-6.336-2.974-10.091 0-3.441.887-6.544 2.661-9.308s4.278-5.136 7.512-7.118c3.235-1.981 7.199-3.52 11.894-4.615 4.696-1.095 9.912-1.642 15.651-1.642 4.173 0 8.581.313 13.224.938 4.643.626 9.312 1.591 14.008 2.894 4.695 1.304 9.259 2.947 13.694 4.928 4.434 1.982 8.529 4.276 12.285 6.884v-46.776c-7.616-2.92-15.937-5.084-24.962-6.492s-19.381-2.112-31.066-2.112c-11.895 0-23.163 1.278-33.805 3.833s-20.006 6.544-28.093 11.967c-8.086 5.424-14.476 12.333-19.171 20.729-4.695 8.395-7.043 18.433-7.043 30.114 0 14.914 4.304 27.638 12.912 38.172 8.607 10.533 21.675 19.45 39.204 26.751 6.886 2.816 13.303 5.579 19.25 8.291s11.086 5.528 15.415 8.448c4.33 2.92 7.747 6.101 10.252 9.543 2.504 3.441 3.756 7.352 3.756 11.733 0 3.233-.783 6.231-2.348 8.995s-3.939 5.162-7.121 7.196-7.147 3.624-11.894 4.771c-4.748 1.148-10.303 1.721-16.668 1.721-10.851 0-21.597-1.903-32.24-5.71-10.642-3.806-20.502-9.516-29.579-17.13zm-84.159-123.342h64.22v-41.082h-179v41.082h63.906v182.918h50.874z"
+    fill="#fff" fill-rule="evenodd" />
+</svg>",
+  "client/src/App.tsx": "import {StrictMode, useState} from 'react';
+import {Loading} from './Loading';
+import {Provider} from 'tinybase/ui-react';
+import {Inspector} from 'tinybase/ui-react-inspector';
+import {Store} from './Store';
+import {Game} from './Game';
+import {TopBar} from './TopBar';
+
+export const App = () => (
+  <>
+    <TopBar />
+    <Main />
+  </>
+);
+
+const Main = () => {
+  const [loading, setLoading] = useState(true);
+
+  return (
+    <div id="app">
+      <StrictMode>
+        <Provider>
+          <Store onReady={() => setLoading(false)} />
+          {loading ? (
+            <Loading />
+          ) : (
+            <>
+              <Game />
+              <Inspector />
+            </>
+          )}
+        </Provider>
+      </StrictMode>
+    </div>
+  );
+};
+",
+  "client/src/Board.tsx": "import './board.css';
+import {useMemo} from 'react';
+import {useValue, STORE_ID} from './Store';
+import {Square} from './Square';
+
+export const Board = () => {
+  const gameStatus = useValue('gameStatus', STORE_ID);
+  const winningLine = useValue('winningLine', STORE_ID);
+
+  const winningPositions = useMemo(() => {
+    if (!winningLine || typeof winningLine !== 'string') return new Set();
+    return new Set(winningLine.split(','));
+  }, [winningLine]);
+
+  const disabled = gameStatus !== 'playing';
+
+  return (
+    <div id="board">
+      {Array.from({length: 9}, (_, i) => (
+        <Square
+          key={i}
+          position={i.toString()}
+          disabled={disabled}
+          winning={winningPositions.has(i.toString())}
+        />
+      ))}
+    </div>
+  );
+};
+",
+  "client/src/Button.tsx": "import './button.css';
+import {ReactNode} from 'react';
+
+interface ButtonProps {
+  children: ReactNode;
+  onClick?: () => void;
+  variant?: 'default' | 'primary';
+  type?: 'button' | 'submit';
+}
+
+export const Button = ({
+  children,
+  onClick,
+  variant = 'default',
+  type = 'button',
+}: ButtonProps) => (
+  <button
+    onClick={onClick}
+    type={type}
+    className={variant === 'primary' ? 'primary' : undefined}
+  >
+    {children}
+  </button>
+);
+",
+  "client/src/Game.tsx": "import {useSetValuesCallback, useTableListener, STORE_ID} from './Store';
+import {Board} from './Board';
+import {GameStatus} from './GameStatus';
+import {Button} from './Button';
+
+const WINNING_LINES = [
+  ['0', '1', '2'],
+  ['3', '4', '5'],
+  ['6', '7', '8'],
+  ['0', '3', '6'],
+  ['1', '4', '7'],
+  ['2', '5', '8'],
+  ['0', '4', '8'],
+  ['2', '4', '6'],
+];
+
+export const Game = () => {
+  useTableListener(
+    'board',
+    (store) => {
+      const gameStatus = store.getValue('gameStatus');
+      if (gameStatus !== 'playing') return;
+
+      for (const line of WINNING_LINES) {
+        const [a, b, c] = line;
+        const cellA = store.getCell('board', a, 'value');
+        const cellB = store.getCell('board', b, 'value');
+        const cellC = store.getCell('board', c, 'value');
+
+        if (cellA && cellA === cellB && cellA === cellC) {
+          store.setValue('gameStatus', 'won');
+          store.setValue('winner', cellA);
+          store.setValue('winningLine', line.join(','));
+          return;
+        }
+      }
+
+      if (store.getRowCount('board') === 9) {
+        store.setValue('gameStatus', 'draw');
+        return;
+      }
+
+      const currentPlayer = store.getValue('currentPlayer');
+      store.setValue('currentPlayer', currentPlayer === 'X' ? 'O' : 'X');
+    },
+    [],
+    true,
+    STORE_ID,
+  );
+
+  const resetGame = useSetValuesCallback(
+    (_, store) => {
+      store.delTable('board');
+      return {
+        currentPlayer: 'X',
+        gameStatus: 'playing',
+        winner: '',
+        winningLine: '',
+      };
+    },
+    [],
+    STORE_ID,
+  );
+
+  return (
+    <>
+      <GameStatus />
+      <Board />
+      <div style={{textAlign: 'center', marginTop: '2rem'}}>
+        <Button onClick={resetGame} variant="primary">
+          New Game
+        </Button>
+      </div>
+    </>
+  );
+};
+",
+  "client/src/GameStatus.tsx": "import './gameStatus.css';
+import {useValue, STORE_ID} from './Store';
+
+export const GameStatus = () => {
+  const gameStatus = useValue('gameStatus', STORE_ID);
+  const currentPlayer = useValue('currentPlayer', STORE_ID) as string;
+  const winner = useValue('winner', STORE_ID) as string;
+
+  return (
+    <div id="gameStatus">
+      {gameStatus === 'playing' && (
+        <>
+          Player <span className="player">{currentPlayer}</span>&apos;s turn
+        </>
+      )}
+      {gameStatus === 'won' && (
+        <>
+          Player <span className="winner">{winner}</span> wins!
+        </>
+      )}
+      {gameStatus === 'draw' && <>It&apos;s a draw!</>}
+    </div>
+  );
+};
+",
+  "client/src/Info.tsx": "import './info.css';
+
+export const Info = () => (
+  <div id="info">
+    <div id="infoTech">
+      <img
+        src="/ts.svg"
+        className="infoTechIcon"
+        title="Written in TypeScript"
+      />
+      <img src="/react.svg" className="infoTechIcon" title="Built with React" />
+    </div>
+    <div id="infoIcon">
+      i
+      <div id="infoTooltip">
+        {
+          'A tic-tac-toe game demonstrating turn-based logic and computed game state using TinyBase.'
+        }
+      </div>
+    </div>
+  </div>
+);
+",
+  "client/src/Loading.tsx": "import './loading.css';
+
+export const Loading = () => <div id="loading" />;
+",
+  "client/src/Square.tsx": "import './square.css';
+import {useCell, useSetCellCallback, useValue, STORE_ID} from './Store';
+
+export const Square = ({
+  position,
+  disabled,
+  winning,
+}: {
+  position: string;
+  disabled: boolean;
+  winning: boolean;
+}) => {
+  const value = useCell('board', position, 'value', STORE_ID) as string;
+  const currentPlayer = useValue('currentPlayer', STORE_ID);
+
+  const isDisabled = disabled || !!value;
+
+  const handleClick = useSetCellCallback(
+    'board',
+    position,
+    'value',
+    () => currentPlayer || 'X',
+    [currentPlayer],
+    STORE_ID,
+  );
+
+  return (
+    <button
+      className={\`square\${isDisabled ? ' disabled' : ''}\${winning ? ' winning' : ''}\`}
+      onClick={handleClick}
+      disabled={isDisabled}
+    >
+      {value || ''}
+    </button>
+  );
+};
+",
+  "client/src/Store.tsx": "import * as UiReact from 'tinybase/ui-react/with-schemas';
+import {
+  STORE_ID,
+  TABLES_SCHEMA,
+  VALUES_SCHEMA,
+  createGameStore,
+} from './storeData';
+import {createLocalPersister} from 'tinybase/persisters/persister-browser/with-schemas';
+
+type Schemas = [typeof TABLES_SCHEMA, typeof VALUES_SCHEMA];
+
+const {
+  useCell,
+  useCreateMergeableStore,
+  useCreatePersister,
+  useProvideStore,
+  useSetCellCallback,
+  useSetValuesCallback,
+  useStore,
+  useTableListener,
+  useValue,
+} = UiReact as UiReact.WithSchemas<Schemas>;
+
+export {STORE_ID};
+export {
+  useStore,
+  useSetValuesCallback,
+  useSetCellCallback,
+  useTableListener,
+  useCell,
+  useValue,
+};
+
+export const Store = ({onReady}: {onReady?: () => void}) => {
+  const store = useCreateMergeableStore(() => createGameStore());
+
+  useProvideStore(STORE_ID, store);
+
+  useCreatePersister(
+    store,
+    (store) => createLocalPersister(store, STORE_ID),
+    [],
+    async (persister) => {
+      await persister.load();
+      await persister.startAutoSave();
+      onReady?.();
+    },
+  );
+
+  return null;
+};
+",
+  "client/src/Title.tsx": "import './title.css';
+
+export const Title = () => (
+  <h1 id="topBarTitle">
+    <img src="/favicon.svg" id="topBarLogo" alt="TinyBase" />
+    TinyBase Game
+  </h1>
+);
+",
+  "client/src/TopBar.tsx": "import './topBar.css';
+import {Info} from './Info';
+import {Title} from './Title';
+
+export const TopBar = () => (
+  <div id="topBar">
+    <Title />
+    <Info />
+  </div>
+);
+",
+  "client/src/board.css": "#board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 1px;
+  background: var(--border);
+  border: 2px solid var(--border);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  margin: 0 auto 2rem;
+  width: fit-content;
+  padding: 1px;
+}
+",
+  "client/src/button.css": "button {
+  padding: 0.5rem 1rem;
+  border: 1px solid #666;
+  border-radius: 0.25rem;
+  background: #222;
+  color: #fff;
+  font-family: inherit;
+  font-weight: 800;
+  cursor: pointer;
+  margin: 0.5rem;
+}
+
+button:hover {
+  border-color: #d81b60;
+}
+
+button.primary {
+  background: #d81b60;
+  border: none;
+  padding: 0.75rem 1.5rem;
+}
+
+button.primary:hover {
+  background: #c2185b;
+}
+",
+  "client/src/gameStatus.css": "#gameStatus {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin: 2rem 0 1rem;
+  color: var(--accent);
+}
+
+#gameStatus .winner {
+  color: var(--accent);
+  animation: pulse 1s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+",
+  "client/src/index.tsx": "import ReactDOM from 'react-dom/client';
+import {App} from './App';
+
+const root = document.getElementById('root')!;
+
+addEventListener('load', () => {
+  ReactDOM.createRoot(root).render(<App />);
+});
+",
+  "client/src/info.css": "#info {
+  --info-fg: var(--fg, oklch(85% 0.01 270));
+  --info-fg2: var(--fg2, oklch(60% 0.01 270));
+  --info-bg2: var(--bg2, oklch(25% 0.01 270));
+  --info-border: var(--border, oklch(30% 0.01 270));
+  --info-accent: var(--accent, #d81b60);
+  --info-icon: #8a8f98;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+#infoTech {
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+}
+
+.infoTechIcon {
+  width: 1.25rem;
+  height: 1.25rem;
+  display: block;
+  flex-shrink: 0;
+}
+
+#infoIcon {
+  width: 1.25rem;
+  height: 1.25rem;
+  border: 2px solid var(--info-icon);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: 800;
+  color: var(--info-icon);
+  cursor: help;
+  transition: all 0.2s;
+  user-select: none;
+}
+
+#infoIcon:hover {
+  border-color: var(--info-accent);
+  color: var(--info-accent);
+}
+
+#infoIcon:hover #infoTooltip {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+#infoTooltip {
+  position: absolute;
+  right: 0;
+  top: calc(100% + 0.5rem);
+  background: var(--info-bg2);
+  border: 1px solid var(--info-border);
+  border-radius: 0.375rem;
+  padding: 0.75rem 1rem;
+  font-size: 0.85rem;
+  font-weight: 400;
+  width: 20rem;
+  white-space: normal;
+  color: var(--info-fg);
+  line-height: 1.5;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-0.25rem);
+  transition: all 0.2s;
+  pointer-events: none;
+  box-shadow: 0 1px 2px 0 #0007;
+  z-index: 1;
+}
+
+#infoTooltip a {
+  color: var(--info-fg);
+  text-decoration: underline;
+}
+
+#infoTooltip::before {
+  content: '';
+  position: absolute;
+  right: 0.75rem;
+  top: -0.375rem;
+  width: 0.75rem;
+  height: 0.75rem;
+  background: var(--info-bg2);
+  border-left: 1px solid var(--info-border);
+  border-top: 1px solid var(--info-border);
+  transform: rotate(45deg);
+}
+",
+  "client/src/loading.css": "#loading {
+  animation: spin 1s infinite linear;
+  height: 2rem;
+  margin: 40vh auto;
+  width: 2rem;
+}
+
+#loading::before {
+  content: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="2rem" viewBox="0 0 100 100"><path d="M50 10A40 40 0 1 1 10 50" stroke="%23d81b60" fill="none" stroke-width="4" /></svg>');
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+",
+  "client/src/square.css": ".square {
+  width: 100px;
+  height: 100px;
+  background: var(--bg2);
+  border: none;
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--fg);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.square:hover:not(.square.disabled) {
+  background: var(--bg);
+  outline: 2px solid var(--accent);
+  outline-offset: -2px;
+  z-index: 1;
+  position: relative;
+}
+
+.square:disabled {
+  cursor: not-allowed;
+}
+
+.square.disabled {
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.square.winning {
+  background: var(--accent);
+  color: var(--bg);
+}
+",
+  "client/src/storeData.ts": "import {createMergeableStore} from 'tinybase/with-schemas';
+
+export const STORE_ID = 'game';
+
+export const TABLES_SCHEMA = {
+  board: {
+    value: {enum: ['', 'X', 'O'], default: ''},
+  },
+} as const;
+
+export const VALUES_SCHEMA = {
+  currentPlayer: {enum: ['X', 'O']},
+  gameStatus: {enum: ['playing', 'won', 'draw']},
+  winner: {enum: ['', 'X', 'O'], default: ''},
+  winningLine: {type: 'string', default: ''},
+} as const;
+
+export const createGameStore = () =>
+  createMergeableStore()
+    .setTablesSchema(TABLES_SCHEMA)
+    .setValuesSchema(VALUES_SCHEMA)
+    .setDefaultContent([
+      {},
+      {
+        currentPlayer: 'X',
+        gameStatus: 'playing',
+      },
+    ]);
+",
+  "client/src/title.css": "#topBarLogo {
+  height: 2rem;
+  width: 2rem;
+  flex-shrink: 0;
+}
+
+#topBarTitle {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: inherit;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 0;
+}
+",
+  "client/src/topBar.css": "#topBar {
+  background: var(--bg-header);
+  border-bottom: 1px solid var(--border);
+  box-shadow: 0 1px 2px 0 #0007;
+  padding: 0.75rem 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  backdrop-filter: blur(4px);
+}
+",
+  "client/src/vite-env.d.ts": "declare module '*.css' {
+  const content: string;
+  export default content;
+}
+",
+  "client/tsconfig.json": "{
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedSideEffectImports": true
+  },
+  "include": ["src"]
+}
+",
+  "client/vite.config.js": "import {defineConfig} from 'vite';
+import react from '@vitejs/plugin-react';
+
+export default defineConfig({
+  plugins: [
+    react({
+      jsxRuntime: 'automatic',
+    }),
+  ],
+});
+",
+}
+`;
+
 exports[`create-tinybase > ts-react-todos > should match snapshot 1`] = `
 {
   "AGENTS.md": "# TinyBase Application Guide
@@ -22847,7 +23723,7 @@ with the store.
     "@vitejs/plugin-react": "^6.0.5"
   },
   "dependencies": {
-    "tinybase": "^9.4.0",
+    "tinybase": "^9.5.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8"
   }
@@ -23720,7 +24596,7 @@ The \`server\` directory contains your Cloudflare Durable Objects WebSocket serv
     "@vitejs/plugin-react": "^6.0.5"
   },
   "dependencies": {
-    "tinybase": "^9.4.0",
+    "tinybase": "^9.5.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
     "reconnecting-websocket": "^4.4.0",
@@ -24523,12 +25399,12 @@ export default {
     "start": "wrangler dev"
   },
   "dependencies": {
-    "tinybase": "^9.4.0"
+    "tinybase": "^9.5.0"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^5.20260808.1",
+    "@cloudflare/workers-types": "^5.20260815.1",
     "typescript": "^6.0.3",
-    "wrangler": "^4.120.0"
+    "wrangler": "^4.123.0"
   }
 }
 ",
@@ -24767,7 +25643,7 @@ with the store.
     "@vitejs/plugin-react": "^6.0.5"
   },
   "dependencies": {
-    "tinybase": "^9.4.0",
+    "tinybase": "^9.5.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
     "reconnecting-websocket": "^4.4.0"
@@ -25641,7 +26517,7 @@ with the store.
     "@vitejs/plugin-react": "^6.0.5"
   },
   "dependencies": {
-    "tinybase": "^9.4.0",
+    "tinybase": "^9.5.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
     "reconnecting-websocket": "^4.4.0"
@@ -26507,7 +27383,7 @@ components still own the app behavior and store interactions.
     "@vanilla-extract/vite-plugin": "^5.2.6"
   },
   "dependencies": {
-    "tinybase": "^9.4.0",
+    "tinybase": "^9.5.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
     "tinywidgets": "^1.8.0"
@@ -27234,7 +28110,7 @@ with the store.
     "vite-plugin-solid": "^2.11.14"
   },
   "dependencies": {
-    "tinybase": "^9.4.0",
+    "tinybase": "^9.5.0",
     "solid-js": "^1.9.14"
   }
 }
@@ -28128,7 +29004,7 @@ with the store.
     "vite-plugin-solid": "^2.11.14"
   },
   "dependencies": {
-    "tinybase": "^9.4.0",
+    "tinybase": "^9.5.0",
     "solid-js": "^1.9.14",
     "reconnecting-websocket": "^4.4.0"
   }
@@ -29046,7 +29922,7 @@ with the store.
     "vite-plugin-solid": "^2.11.14"
   },
   "dependencies": {
-    "tinybase": "^9.4.0",
+    "tinybase": "^9.5.0",
     "solid-js": "^1.9.14",
     "@sqlite.org/sqlite-wasm": "^3.53.0-build1"
   }
@@ -30026,7 +30902,7 @@ with the store.
     "vite-plugin-solid": "^2.11.14"
   },
   "dependencies": {
-    "tinybase": "^9.4.0",
+    "tinybase": "^9.5.0",
     "solid-js": "^1.9.14"
   }
 }
@@ -30961,7 +31837,7 @@ with the store.
     "vite-plugin-solid": "^2.11.14"
   },
   "dependencies": {
-    "tinybase": "^9.4.0",
+    "tinybase": "^9.5.0",
     "solid-js": "^1.9.14",
     "reconnecting-websocket": "^4.4.0"
   }
@@ -31920,7 +32796,7 @@ with the store.
     "vite-plugin-solid": "^2.11.14"
   },
   "dependencies": {
-    "tinybase": "^9.4.0",
+    "tinybase": "^9.5.0",
     "solid-js": "^1.9.14",
     "@sqlite.org/sqlite-wasm": "^3.53.0-build1"
   }
@@ -32939,7 +33815,7 @@ with the store.
     "vite-plugin-solid": "^2.11.14"
   },
   "dependencies": {
-    "tinybase": "^9.4.0",
+    "tinybase": "^9.5.0",
     "solid-js": "^1.9.14"
   }
 }
@@ -33801,7 +34677,7 @@ with the store.
     "vite-plugin-solid": "^2.11.14"
   },
   "dependencies": {
-    "tinybase": "^9.4.0",
+    "tinybase": "^9.5.0",
     "solid-js": "^1.9.14",
     "reconnecting-websocket": "^4.4.0"
   }
@@ -34687,7 +35563,7 @@ with the store.
     "vite-plugin-solid": "^2.11.14"
   },
   "dependencies": {
-    "tinybase": "^9.4.0",
+    "tinybase": "^9.5.0",
     "solid-js": "^1.9.14",
     "@sqlite.org/sqlite-wasm": "^3.53.0-build1"
   }
@@ -35633,7 +36509,7 @@ with the store.
     "vite-plugin-solid": "^2.11.14"
   },
   "dependencies": {
-    "tinybase": "^9.4.0",
+    "tinybase": "^9.5.0",
     "solid-js": "^1.9.14"
   }
 }
@@ -36456,7 +37332,7 @@ with the store.
     "vite-plugin-solid": "^2.11.14"
   },
   "dependencies": {
-    "tinybase": "^9.4.0",
+    "tinybase": "^9.5.0",
     "solid-js": "^1.9.14",
     "reconnecting-websocket": "^4.4.0"
   }
@@ -37320,7 +38196,7 @@ with the store.
     "vite-plugin-solid": "^2.11.14"
   },
   "dependencies": {
-    "tinybase": "^9.4.0",
+    "tinybase": "^9.5.0",
     "solid-js": "^1.9.14",
     "reconnecting-websocket": "^4.4.0"
   }
@@ -38182,7 +39058,7 @@ with the store.
     "vite-plugin-solid": "^2.11.14"
   },
   "dependencies": {
-    "tinybase": "^9.4.0",
+    "tinybase": "^9.5.0",
     "solid-js": "^1.9.14",
     "@sqlite.org/sqlite-wasm": "^3.53.0-build1"
   }
@@ -39081,12 +39957,12 @@ stays synchronized with the underlying TinyBase store.
     "typescript": "^6.0.3",
     "@types/node": "^26.2.0",
     "@tsconfig/svelte": "^5.0.8",
-    "svelte-check": "^4.7.5",
+    "svelte-check": "^4.7.6",
     "@sveltejs/vite-plugin-svelte": "^7.3.0",
-    "svelte": "^5.56.8"
+    "svelte": "^5.56.9"
   },
   "dependencies": {
-    "tinybase": "^9.4.0"
+    "tinybase": "^9.5.0"
   }
 }
 ",
@@ -39968,12 +40844,12 @@ stays synchronized with the underlying TinyBase store.
     "typescript": "^6.0.3",
     "@types/node": "^26.2.0",
     "@tsconfig/svelte": "^5.0.8",
-    "svelte-check": "^4.7.5",
+    "svelte-check": "^4.7.6",
     "@sveltejs/vite-plugin-svelte": "^7.3.0",
-    "svelte": "^5.56.8"
+    "svelte": "^5.56.9"
   },
   "dependencies": {
-    "tinybase": "^9.4.0",
+    "tinybase": "^9.5.0",
     "reconnecting-websocket": "^4.4.0"
   }
 }
@@ -40872,12 +41748,12 @@ stays synchronized with the underlying TinyBase store.
     "typescript": "^6.0.3",
     "@types/node": "^26.2.0",
     "@tsconfig/svelte": "^5.0.8",
-    "svelte-check": "^4.7.5",
+    "svelte-check": "^4.7.6",
     "@sveltejs/vite-plugin-svelte": "^7.3.0",
-    "svelte": "^5.56.8"
+    "svelte": "^5.56.9"
   },
   "dependencies": {
-    "tinybase": "^9.4.0",
+    "tinybase": "^9.5.0",
     "@sqlite.org/sqlite-wasm": "^3.53.0-build1"
   }
 }
@@ -41841,12 +42717,12 @@ stays synchronized with the underlying TinyBase store.
     "typescript": "^6.0.3",
     "@types/node": "^26.2.0",
     "@tsconfig/svelte": "^5.0.8",
-    "svelte-check": "^4.7.5",
+    "svelte-check": "^4.7.6",
     "@sveltejs/vite-plugin-svelte": "^7.3.0",
-    "svelte": "^5.56.8"
+    "svelte": "^5.56.9"
   },
   "dependencies": {
-    "tinybase": "^9.4.0"
+    "tinybase": "^9.5.0"
   }
 }
 ",
@@ -42765,12 +43641,12 @@ stays synchronized with the underlying TinyBase store.
     "typescript": "^6.0.3",
     "@types/node": "^26.2.0",
     "@tsconfig/svelte": "^5.0.8",
-    "svelte-check": "^4.7.5",
+    "svelte-check": "^4.7.6",
     "@sveltejs/vite-plugin-svelte": "^7.3.0",
-    "svelte": "^5.56.8"
+    "svelte": "^5.56.9"
   },
   "dependencies": {
-    "tinybase": "^9.4.0",
+    "tinybase": "^9.5.0",
     "reconnecting-websocket": "^4.4.0"
   }
 }
@@ -43706,12 +44582,12 @@ stays synchronized with the underlying TinyBase store.
     "typescript": "^6.0.3",
     "@types/node": "^26.2.0",
     "@tsconfig/svelte": "^5.0.8",
-    "svelte-check": "^4.7.5",
+    "svelte-check": "^4.7.6",
     "@sveltejs/vite-plugin-svelte": "^7.3.0",
-    "svelte": "^5.56.8"
+    "svelte": "^5.56.9"
   },
   "dependencies": {
-    "tinybase": "^9.4.0",
+    "tinybase": "^9.5.0",
     "@sqlite.org/sqlite-wasm": "^3.53.0-build1"
   }
 }
@@ -44711,12 +45587,12 @@ stays synchronized with the underlying TinyBase store.
     "typescript": "^6.0.3",
     "@types/node": "^26.2.0",
     "@tsconfig/svelte": "^5.0.8",
-    "svelte-check": "^4.7.5",
+    "svelte-check": "^4.7.6",
     "@sveltejs/vite-plugin-svelte": "^7.3.0",
-    "svelte": "^5.56.8"
+    "svelte": "^5.56.9"
   },
   "dependencies": {
-    "tinybase": "^9.4.0"
+    "tinybase": "^9.5.0"
   }
 }
 ",
@@ -45559,12 +46435,12 @@ stays synchronized with the underlying TinyBase store.
     "typescript": "^6.0.3",
     "@types/node": "^26.2.0",
     "@tsconfig/svelte": "^5.0.8",
-    "svelte-check": "^4.7.5",
+    "svelte-check": "^4.7.6",
     "@sveltejs/vite-plugin-svelte": "^7.3.0",
-    "svelte": "^5.56.8"
+    "svelte": "^5.56.9"
   },
   "dependencies": {
-    "tinybase": "^9.4.0",
+    "tinybase": "^9.5.0",
     "reconnecting-websocket": "^4.4.0"
   }
 }
@@ -46424,12 +47300,12 @@ stays synchronized with the underlying TinyBase store.
     "typescript": "^6.0.3",
     "@types/node": "^26.2.0",
     "@tsconfig/svelte": "^5.0.8",
-    "svelte-check": "^4.7.5",
+    "svelte-check": "^4.7.6",
     "@sveltejs/vite-plugin-svelte": "^7.3.0",
-    "svelte": "^5.56.8"
+    "svelte": "^5.56.9"
   },
   "dependencies": {
-    "tinybase": "^9.4.0",
+    "tinybase": "^9.5.0",
     "@sqlite.org/sqlite-wasm": "^3.53.0-build1"
   }
 }
@@ -47352,12 +48228,12 @@ stays synchronized with the underlying TinyBase store.
     "typescript": "^6.0.3",
     "@types/node": "^26.2.0",
     "@tsconfig/svelte": "^5.0.8",
-    "svelte-check": "^4.7.5",
+    "svelte-check": "^4.7.6",
     "@sveltejs/vite-plugin-svelte": "^7.3.0",
-    "svelte": "^5.56.8"
+    "svelte": "^5.56.9"
   },
   "dependencies": {
-    "tinybase": "^9.4.0"
+    "tinybase": "^9.5.0"
   }
 }
 ",
@@ -48130,12 +49006,12 @@ stays synchronized with the underlying TinyBase store.
     "typescript": "^6.0.3",
     "@types/node": "^26.2.0",
     "@tsconfig/svelte": "^5.0.8",
-    "svelte-check": "^4.7.5",
+    "svelte-check": "^4.7.6",
     "@sveltejs/vite-plugin-svelte": "^7.3.0",
-    "svelte": "^5.56.8"
+    "svelte": "^5.56.9"
   },
   "dependencies": {
-    "tinybase": "^9.4.0",
+    "tinybase": "^9.5.0",
     "reconnecting-websocket": "^4.4.0"
   }
 }
@@ -48925,12 +49801,12 @@ stays synchronized with the underlying TinyBase store.
     "typescript": "^6.0.3",
     "@types/node": "^26.2.0",
     "@tsconfig/svelte": "^5.0.8",
-    "svelte-check": "^4.7.5",
+    "svelte-check": "^4.7.6",
     "@sveltejs/vite-plugin-svelte": "^7.3.0",
-    "svelte": "^5.56.8"
+    "svelte": "^5.56.9"
   },
   "dependencies": {
-    "tinybase": "^9.4.0",
+    "tinybase": "^9.5.0",
     "@sqlite.org/sqlite-wasm": "^3.53.0-build1"
   }
 }
@@ -49780,7 +50656,7 @@ Your data is automatically saved and restored when you reload the page.
     "@types/node": "^26.2.0"
   },
   "dependencies": {
-    "tinybase": "^9.4.0"
+    "tinybase": "^9.5.0"
   }
 }
 ",
@@ -50620,7 +51496,7 @@ Your data is automatically saved and restored when you reload the page.
     "@types/node": "^26.2.0"
   },
   "dependencies": {
-    "tinybase": "^9.4.0"
+    "tinybase": "^9.5.0"
   }
 }
 ",
@@ -51496,7 +52372,7 @@ Your data is automatically saved and restored when you reload the page.
     "@types/node": "^26.2.0"
   },
   "dependencies": {
-    "tinybase": "^9.4.0"
+    "tinybase": "^9.5.0"
   }
 }
 ",
@@ -52287,8 +53163,8 @@ Your data is automatically saved and restored when you reload the page.
     "vite-plugin-static-copy": "^4.1.1"
   },
   "dependencies": {
-    "tinybase": "^9.4.0",
-    "@electric-sql/pglite": "^0.5.4"
+    "tinybase": "^9.5.0",
+    "@electric-sql/pglite": "^0.5.5"
   }
 }
 ",
@@ -53127,7 +54003,7 @@ Your data is automatically saved and restored when you reload the page.
     "@types/node": "^26.2.0"
   },
   "dependencies": {
-    "tinybase": "^9.4.0"
+    "tinybase": "^9.5.0"
   }
 }
 ",
