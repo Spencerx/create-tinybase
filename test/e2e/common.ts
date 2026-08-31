@@ -21,7 +21,12 @@ export async function initBrowser() {
     await rm(TEST_DIR, {recursive: true, force: true});
   }
   await mkdir(TEST_DIR, {recursive: true});
-  browser = await puppeteer.launch({headless: true});
+  // Pin the browser's timezone so that screenshots of rendered times are
+  // reproducible on any machine, not just the one that last ran these tests.
+  browser = await puppeteer.launch({
+    headless: true,
+    env: {...process.env, TZ: 'UTC'},
+  });
 }
 
 export async function closeBrowser() {
