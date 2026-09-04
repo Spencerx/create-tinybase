@@ -48,6 +48,11 @@
   "engines": {
     "node": ">=18.0.0"
   },
+  "puppeteer": {
+    "chrome-headless-shell": {
+      "skipDownload": true
+    }
+  },
   "devDependencies": {
     "@eslint/js": "^9.39.5",
     "@types/node": "^26.4.1",
