@@ -21,10 +21,14 @@ export async function initBrowser() {
     await rm(TEST_DIR, {recursive: true, force: true});
   }
   await mkdir(TEST_DIR, {recursive: true});
-  // Pin the browser's timezone so that screenshots of rendered times are
+  // Pin the browser's timezone and color scheme so that screenshots are
   // reproducible on any machine, not just the one that last ran these tests.
+  // Headless Chrome otherwise inherits the host's appearance setting, which
+  // only shows up in the TinyWidgets screenshots, since they are the ones that
+  // respond to prefers-color-scheme.
   browser = await puppeteer.launch({
     headless: true,
+    args: ['--force-dark-mode'],
     env: {...process.env, TZ: 'UTC'},
   });
 }
