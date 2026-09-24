@@ -28,17 +28,17 @@
 },
 "devDependencies": {
 {{#list}}
-  "vite": "^8.2.2"
+  "vite": "^8.3.0"
   {{#if typescript}}
     "typescript": "^6.0.3"
-    "@types/node": "^26.4.1"
+    "@types/node": "^26.6.2"
     {{#if svelte}}
       "@tsconfig/svelte": "^5.0.8"
       "svelte-check": "^4.7.6"
     {{/if}}
     {{#if react}}
-      "@types/react": "^19.2.18"
-      "@types/react-dom": "^19.2.5"
+      "@types/react": "^19.3.0"
+      "@types/react-dom": "^19.3.0"
     {{/if}}
   {{/if}}
   {{#if react}}
@@ -51,14 +51,14 @@
     "@vanilla-extract/vite-plugin": "^5.2.6"
   {{/if}}
   {{#if svelte}}
-    "@sveltejs/vite-plugin-svelte": "^7.3.0"
-    "svelte": "^5.57.0"
+    "@sveltejs/vite-plugin-svelte": "^7.3.1"
+    "svelte": "^5.57.1"
   {{/if}}
   {{#if persistPglite}}
     "vite-plugin-static-copy": "^4.1.1"
   {{/if}}
   {{#if prettier}}
-    "prettier": "^3.9.6"
+    "prettier": "^3.9.9"
     {{#if svelte}}
       "prettier-plugin-svelte": "^4.1.1"
     {{/if}}
@@ -66,7 +66,7 @@
   {{#if eslint}}
     "eslint": "^9.39.5"
     {{#if typescript}}
-      "typescript-eslint": "^8.69.0"
+      "typescript-eslint": "^8.70.1"
     {{/if}}
     {{#if react}}
       "eslint-plugin-react": "^7.37.5"
@@ -77,22 +77,22 @@
 },
 "dependencies": {
 {{#list}}
-  "tinybase": "^9.7.0"
+  "tinybase": "^10.0.1"
   {{#if react}}
-    "react": "^19.2.8"
-    "react-dom": "^19.2.8"
+    "react": "^19.3.0"
+    "react-dom": "^19.3.0"
   {{/if}}
   {{#if solid}}
     "solid-js": "^1.9.15"
   {{/if}}
   {{#if tinyWidgets}}
-    "tinywidgets": "^1.8.0"
+    "tinywidgets": "^1.8.1"
   {{/if}}
   {{#if sync}}
     "reconnecting-websocket": "^4.4.0"
   {{/if}}
   {{#if persistSqlite}}
-    "@sqlite.org/sqlite-wasm": "^3.53.0-build1"
+    "@sqlite.org/sqlite-wasm": "^3.53.4-build1"
   {{/if}}
   {{#if persistPglite}}
     "@electric-sql/pglite": "^0.5.8"
