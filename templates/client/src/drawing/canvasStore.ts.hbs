@@ -77,6 +77,22 @@ createMergeableStore(){{#if schemas}}
         });
         });
       {{/if}}
+      {{#if persistTinyjoin}}
+        {{#if schemas}}
+          {{addImport "import {createTinyJoinPersister} from 'tinybase/persisters/persister-tinyjoin/with-schemas';"}}
+        {{else}}
+          {{addImport "import {createTinyJoinPersister} from 'tinybase/persisters/persister-tinyjoin';"}}
+        {{/if}}
+        {{includeFile template="client/src/shared/tinyjoin.ts.hbs" output="client/src/tinyjoin.{{ext}}"}}
+        {{addImport "import {getTinyJoin} from './tinyjoin';"}}
+
+        getTinyJoin().then((tinyJoin) => {
+        const canvasPersister = createTinyJoinPersister(canvasStore, tinyJoin, STORE_ID);
+        canvasPersister.load().then(() => {
+        canvasPersister.startAutoSave().then(resolveCanvasReady);
+        });
+        });
+      {{/if}}
     {{/if}}
 
     {{#if sync}}

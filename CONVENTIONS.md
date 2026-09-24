@@ -99,7 +99,7 @@ export const Store = () => {
         },
       );
     {{/if}}
-    // Similar patterns for persistSqlite and persistPglite
+    // Similar patterns for persistSqlite, persistPglite and persistTinyjoin
   {{/if}}
 
   // Synchronization (if enabled)
@@ -160,7 +160,7 @@ export const store = createMergeableStore().setTable('todos', {
     const persister = createLocalPersister(store, 'todos');
     persister.startAutoLoad().then(() => persister.startAutoSave());
   {{/if}}
-  // Similar patterns for persistSqlite and persistPglite
+  // Similar patterns for persistSqlite, persistPglite and persistTinyjoin
 {{/if}}
 
 // Synchronization (if enabled)
@@ -584,6 +584,18 @@ await persister.startAutoLoad();
 await persister.startAutoSave();
 ```
 
+**TinyJoin (Relational Database in Browser):**
+
+```typescript
+import {createTinyJoinPersister} from 'tinybase/persisters/persister-tinyjoin';
+import {create} from 'tinyjoin';
+
+const tinyJoin = await create('opfs://local');
+const persister = createTinyJoinPersister(store, tinyJoin, STORE_ID);
+await persister.startAutoLoad();
+await persister.startAutoSave();
+```
+
 ### Multi-Store Persistence
 
 In apps with multiple stores (chat, drawing), **both** stores get persistence:
@@ -631,7 +643,7 @@ Tests are organized in the `test/e2e/` directory with one file per app type:
 Each app has three categories of tests:
 
 1. **Basic Tests**: Verify core functionality across all combinations
-2. **Persistence Tests**: Verify data persists after reload (sqlite, pglite)
+2. **Persistence Tests**: Verify data persists after reload (sqlite, pglite, tinyjoin)
 3. **Sync Tests**: Verify data syncs between two browser windows
 
 ### Combination Arrays

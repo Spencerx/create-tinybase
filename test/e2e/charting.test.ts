@@ -66,6 +66,13 @@ const persistenceCombinations = [
     persistenceType: 'pglite',
     name: 'ts-react-charting-persist-pglite',
   },
+  {
+    language: 'typescript',
+    framework: 'react',
+    appType: 'charting',
+    persistenceType: 'tinyjoin',
+    name: 'ts-react-charting-persist-tinyjoin',
+  },
 ];
 
 const syncCombinations = [

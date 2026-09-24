@@ -97,6 +97,29 @@ useProvideStore(STORE_ID, store());
     },
     );
   {{/if}}
+  {{#if persistTinyjoin}}
+    {{#if schemas}}
+      {{addImport "import {createTinyJoinPersister} from 'tinybase/persisters/persister-tinyjoin/with-schemas';"}}
+    {{else}}
+      {{addImport "import {createTinyJoinPersister} from 'tinybase/persisters/persister-tinyjoin';"}}
+      {{addImport "import {useCreatePersister} from 'tinybase/ui-solid';"}}
+    {{/if}}
+    {{includeFile template="client/src/shared/tinyjoin.ts.hbs" output="client/src/tinyjoin.{{ext}}"}}
+    {{addImport "import {getTinyJoin} from './tinyjoin';"}}
+
+    useCreatePersister(
+    store,
+    async (store) => {
+    const tinyJoin = await getTinyJoin();
+    return createTinyJoinPersister(store, tinyJoin, STORE_ID);
+    },
+    async (persister) => {
+    await persister.load();
+    await persister.startAutoSave();
+    props.onReady?.();
+    },
+    );
+  {{/if}}
 {{/if}}
 
 {{#if sync}}

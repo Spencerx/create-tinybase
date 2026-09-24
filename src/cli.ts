@@ -44,6 +44,7 @@ const PERSISTENCE_TYPES = [
   {title: 'Local Storage', value: 'local-storage'},
   {title: 'SQLite', value: 'sqlite'},
   {title: 'PGlite', value: 'pglite'},
+  {title: 'TinyJoin', value: 'tinyjoin'},
 ] as const;
 
 const values = <Value extends string>(
@@ -283,6 +284,7 @@ const config = {
     const persistLocalStorage = normalizedPersistenceType === 'local-storage';
     const persistSqlite = normalizedPersistenceType === 'sqlite';
     const persistPglite = normalizedPersistenceType === 'pglite';
+    const persistTinyjoin = normalizedPersistenceType === 'tinyjoin';
     const needsViteConfig =
       react ||
       solid ||
@@ -371,7 +373,9 @@ const config = {
         ? [{src: '/sqlite.svg', title: 'Persists data to SQLite'}]
         : persistPglite
           ? [{src: '/pglite.svg', title: 'Persists data to PGlite'}]
-          : []),
+          : persistTinyjoin
+            ? [{src: '/tinyjoin.svg', title: 'Persists data to TinyJoin'}]
+            : []),
       ...(sync
         ? [{src: '/sync.svg', title: 'Data synchronization enabled'}]
         : []),
@@ -396,6 +400,7 @@ const config = {
       persistLocalStorage,
       persistSqlite,
       persistPglite,
+      persistTinyjoin,
       needsViteConfig,
       appSurface,
       frameworkName,

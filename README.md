@@ -24,7 +24,7 @@ This will prompt you with questions to configure your new TinyBase app:
 - **App type** - Todo app, Chat app, Drawing app, Charting app, or Tic-tac-toe game
 - **Store schemas** - TypeScript type safety for stores (TypeScript only)
 - **Synchronization** - None, remote demo server, local Node server, or local Durable Objects server
-- **Persistence** - None, Local Storage, SQLite, or PGLite
+- **Persistence** - None, Local Storage, SQLite, PGLite, or TinyJoin
 - **Prettier** - Include Prettier for code formatting
 - **ESLint** - Include ESLint for code linting
 
@@ -289,6 +289,15 @@ Choose how to persist store data on the client:
 - IndexedDB-backed (`idb://` prefix)
 - Advanced SQL features
 - Larger bundle size
+
+**TinyJoin**:
+
+- Tiny relational database in the browser
+- Runs its engine in a dedicated Worker
+- Uses `tinyjoin` package
+- OPFS-backed (`opfs://` prefix)
+- Tabs share one database-owning Worker
+- Small bundle size
 
 **Important Notes:**
 

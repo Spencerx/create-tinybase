@@ -121,6 +121,13 @@ const persistenceCombinations = [
   },
   {
     language: 'typescript',
+    framework: 'vanilla',
+    appType: 'todos',
+    persistenceType: 'tinyjoin',
+    name: 'ts-vanilla-todos-persist-tinyjoin',
+  },
+  {
+    language: 'typescript',
     framework: 'react',
     appType: 'todos',
     persistenceType: 'sqlite',
@@ -132,6 +139,13 @@ const persistenceCombinations = [
     appType: 'todos',
     persistenceType: 'pglite',
     name: 'ts-react-todos-persist-pglite',
+  },
+  {
+    language: 'typescript',
+    framework: 'react',
+    appType: 'todos',
+    persistenceType: 'tinyjoin',
+    name: 'ts-react-todos-persist-tinyjoin',
   },
   {
     language: 'typescript',
@@ -149,6 +163,13 @@ const persistenceCombinations = [
   },
   {
     language: 'typescript',
+    framework: 'solid',
+    appType: 'todos',
+    persistenceType: 'tinyjoin',
+    name: 'ts-solid-todos-persist-tinyjoin',
+  },
+  {
+    language: 'typescript',
     framework: 'svelte',
     appType: 'todos',
     persistenceType: 'sqlite',
@@ -160,6 +181,13 @@ const persistenceCombinations = [
     appType: 'todos',
     persistenceType: 'pglite',
     name: 'ts-svelte-todos-persist-pglite',
+  },
+  {
+    language: 'typescript',
+    framework: 'svelte',
+    appType: 'todos',
+    persistenceType: 'tinyjoin',
+    name: 'ts-svelte-todos-persist-tinyjoin',
   },
 ];
 

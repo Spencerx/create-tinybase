@@ -9,7 +9,7 @@ lifecycle while adapting the application to the user's requirements.
 - **Language**: {{#if typescript}}TypeScript{{else}}JavaScript{{/if}}
 - **UI**: {{frameworkName}}{{#if tinyWidgets}} with TinyWidgets{{/if}}
 - **Store**: MergeableStore
-- **Persistence**: {{#if persistLocalStorage}}browser Local Storage{{else if persistSqlite}}SQLite WASM{{else if persistPglite}}PGlite{{else}}none{{/if}}
+- **Persistence**: {{#if persistLocalStorage}}browser Local Storage{{else if persistSqlite}}SQLite WASM{{else if persistPglite}}PGlite{{else if persistTinyjoin}}TinyJoin{{else}}none{{/if}}
 - **Synchronization**: {{#if (eq syncType "remote")}}remote demo WebSocket server{{else if (eq syncType "node")}}local Node.js WebSocket server{{else if (eq syncType "durable-objects")}}Cloudflare Durable Objects{{else}}none{{/if}}
 - **Schemas**: {{#if schemas}}enabled{{else}}not enabled{{/if}}
 

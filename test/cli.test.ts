@@ -13,7 +13,7 @@ interface Combination {
   framework: 'vanilla' | 'react' | 'solid' | 'svelte';
   appType: 'todos' | 'chat' | 'drawing' | 'charting' | 'game';
   syncType?: 'none' | 'remote' | 'node' | 'durable-objects';
-  persistenceType?: 'none' | 'local-storage' | 'sqlite' | 'pglite';
+  persistenceType?: 'none' | 'local-storage' | 'sqlite' | 'pglite' | 'tinyjoin';
   schemas?: boolean;
   tinyWidgets?: boolean;
   name: string;
@@ -467,6 +467,22 @@ const combinations: Combination[] = [
   {
     language: 'javascript',
     framework: 'vanilla',
+    appType: 'todos',
+    syncType: 'none',
+    persistenceType: 'tinyjoin',
+    name: 'js-vanilla-todos-tinyjoin',
+  },
+  {
+    language: 'typescript',
+    framework: 'svelte',
+    appType: 'chat',
+    syncType: 'none',
+    persistenceType: 'tinyjoin',
+    name: 'ts-svelte-chat-tinyjoin',
+  },
+  {
+    language: 'javascript',
+    framework: 'vanilla',
     appType: 'drawing',
     syncType: 'none',
     persistenceType: 'none',
@@ -541,7 +557,8 @@ type Language = 'javascript' | 'typescript';
 type Framework = 'vanilla' | 'react' | 'solid' | 'svelte';
 type AppType = 'todos' | 'chat' | 'drawing' | 'charting' | 'game';
 type SyncType = 'none' | 'remote' | 'node' | 'durable-objects';
-type PersistenceType = 'none' | 'local-storage' | 'sqlite' | 'pglite';
+type PersistenceType =
+  'none' | 'local-storage' | 'sqlite' | 'pglite' | 'tinyjoin';
 
 async function runCLI(
   projectName: string,

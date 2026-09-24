@@ -1,6 +1,7 @@
 {{includeFile template="client/src/drawing/settingsStore.ts.hbs" output="client/src/settingsStore.{{ext}}"}}
 {{#if persistSqlite}}{{includeFile template="client/src/shared/sqlite.ts.hbs" output="client/src/sqlite.{{ext}}"}}{{/if}}
 {{#if persistPglite}}{{includeFile template="client/src/shared/pglite.ts.hbs" output="client/src/pglite.{{ext}}"}}{{/if}}
+{{#if persistTinyjoin}}{{includeFile template="client/src/shared/tinyjoin.ts.hbs" output="client/src/tinyjoin.{{ext}}"}}{{/if}}
 
 <script{{#if typescript}} lang="ts" {{/if}}>
 {{#if schemas}}
@@ -34,6 +35,14 @@
   {{/if}}
   import { getPgLite } from './pglite';
   {{/if}}
+  {{#if persistTinyjoin}}
+  {{#if schemas}}
+  import { createTinyJoinPersister } from 'tinybase/persisters/persister-tinyjoin/with-schemas';
+  {{else}}
+  import { createTinyJoinPersister } from 'tinybase/persisters/persister-tinyjoin';
+  {{/if}}
+  import { getTinyJoin } from './tinyjoin';
+  {{/if}}
   {{/if}}
   import { DEFAULT_VALUES, STORE_ID, createSettingsStore{{#if schemas}}, VALUES_SCHEMA{{/if}} } from './settingsStore';
 
@@ -66,6 +75,13 @@
     {{#if persistPglite}}
     const pgLite = await getPgLite();
     const persister = await createPglitePersister(store, pgLite, STORE_ID);
+    await persister.load([{}, DEFAULT_VALUES]);
+    await persister.startAutoSave();
+    onReady?.();
+    {{/if}}
+    {{#if persistTinyjoin}}
+    const tinyJoin = await getTinyJoin();
+    const persister = createTinyJoinPersister(store, tinyJoin, STORE_ID);
     await persister.load([{}, DEFAULT_VALUES]);
     await persister.startAutoSave();
     onReady?.();

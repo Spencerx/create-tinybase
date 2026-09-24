@@ -1,6 +1,7 @@
 {{includeFile template="client/src/chat/chatStore.ts.hbs" output="client/src/chatStore.{{ext}}"}}
 {{#if persistSqlite}}{{includeFile template="client/src/shared/sqlite.ts.hbs" output="client/src/sqlite.{{ext}}"}}{{/if}}
 {{#if persistPglite}}{{includeFile template="client/src/shared/pglite.ts.hbs" output="client/src/pglite.{{ext}}"}}{{/if}}
+{{#if persistTinyjoin}}{{includeFile template="client/src/shared/tinyjoin.ts.hbs" output="client/src/tinyjoin.{{ext}}"}}{{/if}}
 {{#if sync}}{{includeFile template="client/src/shared/config.ts.hbs" output="client/src/config.ts"}}{{/if}}
 
 <script{{#if typescript}} lang="ts" {{/if}}>
@@ -34,6 +35,14 @@
   import { createPglitePersister } from 'tinybase/persisters/persister-pglite';
   {{/if}}
   import { getPgLite } from './pglite';
+  {{/if}}
+  {{#if persistTinyjoin}}
+  {{#if schemas}}
+  import { createTinyJoinPersister } from 'tinybase/persisters/persister-tinyjoin/with-schemas';
+  {{else}}
+  import { createTinyJoinPersister } from 'tinybase/persisters/persister-tinyjoin';
+  {{/if}}
+  import { getTinyJoin } from './tinyjoin';
   {{/if}}
   {{/if}}
   {{#if sync}}
@@ -76,6 +85,13 @@
     {{#if persistPglite}}
     const pgLite = await getPgLite();
     const persister = await createPglitePersister(store, pgLite, STORE_ID);
+    await persister.load();
+    await persister.startAutoSave();
+    onReady?.();
+    {{/if}}
+    {{#if persistTinyjoin}}
+    const tinyJoin = await getTinyJoin();
+    const persister = createTinyJoinPersister(store, tinyJoin, STORE_ID);
     await persister.load();
     await persister.startAutoSave();
     onReady?.();

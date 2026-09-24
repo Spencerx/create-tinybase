@@ -25,6 +25,7 @@
     "svelte",
     "sqlite",
     "pglite",
+    "tinyjoin",
     "durable-objects"
   ],
   "private": true,

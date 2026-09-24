@@ -1,0 +1,22 @@
+{{addImport "import {create, type Client} from 'tinyjoin';"}}
+
+let tinyJoinPromise: Promise<Client> | null = null;
+
+  export const getTinyJoin = async (): Promise<Client> => {
+    if (!tinyJoinPromise) {
+    tinyJoinPromise = create('opfs://local');
+    addEventListener(
+    'pagehide',
+    () => void tinyJoinPromise?.then((tinyJoin) => tinyJoin.close()).catch(() => undefined),
+    {once: true},
+    );
+    // A page restored from the back/forward cache must not reuse the client
+    // that was closed as it was hidden.
+    addEventListener('pageshow', (event) => {
+    if (event.persisted) {
+    location.reload();
+    }
+    });
+    }
+    return await tinyJoinPromise;
+    };

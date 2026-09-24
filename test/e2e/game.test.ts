@@ -120,6 +120,13 @@ const persistenceCombinations = [
   },
   {
     language: 'typescript',
+    framework: 'vanilla',
+    appType: 'game',
+    persistenceType: 'tinyjoin',
+    name: 'ts-vanilla-game-persist-tinyjoin',
+  },
+  {
+    language: 'typescript',
     framework: 'react',
     appType: 'game',
     persistenceType: 'sqlite',
@@ -131,6 +138,13 @@ const persistenceCombinations = [
     appType: 'game',
     persistenceType: 'pglite',
     name: 'ts-react-game-persist-pglite',
+  },
+  {
+    language: 'typescript',
+    framework: 'react',
+    appType: 'game',
+    persistenceType: 'tinyjoin',
+    name: 'ts-react-game-persist-tinyjoin',
   },
   {
     language: 'typescript',
@@ -148,6 +162,13 @@ const persistenceCombinations = [
   },
   {
     language: 'typescript',
+    framework: 'solid',
+    appType: 'game',
+    persistenceType: 'tinyjoin',
+    name: 'ts-solid-game-persist-tinyjoin',
+  },
+  {
+    language: 'typescript',
     framework: 'svelte',
     appType: 'game',
     persistenceType: 'sqlite',
@@ -159,6 +180,13 @@ const persistenceCombinations = [
     appType: 'game',
     persistenceType: 'pglite',
     name: 'ts-svelte-game-persist-pglite',
+  },
+  {
+    language: 'typescript',
+    framework: 'svelte',
+    appType: 'game',
+    persistenceType: 'tinyjoin',
+    name: 'ts-svelte-game-persist-tinyjoin',
   },
 ];
 

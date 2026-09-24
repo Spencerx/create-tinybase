@@ -121,6 +121,13 @@ const persistenceCombinations = [
   },
   {
     language: 'typescript',
+    framework: 'vanilla',
+    appType: 'chat',
+    persistenceType: 'tinyjoin',
+    name: 'ts-vanilla-chat-persist-tinyjoin',
+  },
+  {
+    language: 'typescript',
     framework: 'react',
     appType: 'chat',
     persistenceType: 'sqlite',
@@ -132,6 +139,13 @@ const persistenceCombinations = [
     appType: 'chat',
     persistenceType: 'pglite',
     name: 'ts-react-chat-persist-pglite',
+  },
+  {
+    language: 'typescript',
+    framework: 'react',
+    appType: 'chat',
+    persistenceType: 'tinyjoin',
+    name: 'ts-react-chat-persist-tinyjoin',
   },
   {
     language: 'typescript',
@@ -149,6 +163,13 @@ const persistenceCombinations = [
   },
   {
     language: 'typescript',
+    framework: 'solid',
+    appType: 'chat',
+    persistenceType: 'tinyjoin',
+    name: 'ts-solid-chat-persist-tinyjoin',
+  },
+  {
+    language: 'typescript',
     framework: 'svelte',
     appType: 'chat',
     persistenceType: 'sqlite',
@@ -160,6 +181,13 @@ const persistenceCombinations = [
     appType: 'chat',
     persistenceType: 'pglite',
     name: 'ts-svelte-chat-persist-pglite',
+  },
+  {
+    language: 'typescript',
+    framework: 'svelte',
+    appType: 'chat',
+    persistenceType: 'tinyjoin',
+    name: 'ts-svelte-chat-persist-tinyjoin',
   },
 ];
 

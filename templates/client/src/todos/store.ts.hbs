@@ -81,6 +81,22 @@ todos: {
         });
         });
       {{/if}}
+      {{#if persistTinyjoin}}
+        {{#if schemas}}
+          {{addImport "import {createTinyJoinPersister} from 'tinybase/persisters/persister-tinyjoin/with-schemas';"}}
+        {{else}}
+          {{addImport "import {createTinyJoinPersister} from 'tinybase/persisters/persister-tinyjoin';"}}
+        {{/if}}
+        {{includeFile template="client/src/shared/tinyjoin.ts.hbs" output="client/src/tinyjoin.{{ext}}"}}
+        {{addImport "import {getTinyJoin} from './tinyjoin';"}}
+
+        getTinyJoin().then((tinyJoin) => {
+        const persister = createTinyJoinPersister(store, tinyJoin, STORE_ID);
+        persister.load().then(() => {
+        persister.startAutoSave().then(resolveReady);
+        });
+        });
+      {{/if}}
     {{/if}}
 
     {{#if sync}}

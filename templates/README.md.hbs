@@ -90,6 +90,11 @@ The app uses **TinyBase** to manage application state in a reactive data store.
   Your data is automatically saved and restored when you reload the page.
 
 {{/if}}
+{{#if persistTinyjoin}}
+  **Persistence** is enabled using TinyJoin (a relational database running entirely in the browser, saved to OPFS).
+  Your data is automatically saved and restored when you reload the page.
+
+{{/if}}
 {{#if sync}}
   **Synchronization** is powered by TinyBase's WebSocket synchronizer{{#if server}}, connecting
     to your {{#if (eq syncType "durable-objects")}}Cloudflare Durable Objects{{else}}Node.js{{/if}} server{{else}} (connecting to a demo server at vite.tinybase.org){{/if}}.

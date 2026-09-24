@@ -121,6 +121,13 @@ const persistenceCombinations = [
   },
   {
     language: 'typescript',
+    framework: 'vanilla',
+    appType: 'drawing',
+    persistenceType: 'tinyjoin',
+    name: 'ts-vanilla-drawing-persist-tinyjoin',
+  },
+  {
+    language: 'typescript',
     framework: 'react',
     appType: 'drawing',
     persistenceType: 'sqlite',
@@ -132,6 +139,13 @@ const persistenceCombinations = [
     appType: 'drawing',
     persistenceType: 'pglite',
     name: 'ts-react-drawing-persist-pglite',
+  },
+  {
+    language: 'typescript',
+    framework: 'react',
+    appType: 'drawing',
+    persistenceType: 'tinyjoin',
+    name: 'ts-react-drawing-persist-tinyjoin',
   },
   {
     language: 'typescript',
@@ -149,6 +163,13 @@ const persistenceCombinations = [
   },
   {
     language: 'typescript',
+    framework: 'solid',
+    appType: 'drawing',
+    persistenceType: 'tinyjoin',
+    name: 'ts-solid-drawing-persist-tinyjoin',
+  },
+  {
+    language: 'typescript',
     framework: 'svelte',
     appType: 'drawing',
     persistenceType: 'sqlite',
@@ -160,6 +181,13 @@ const persistenceCombinations = [
     appType: 'drawing',
     persistenceType: 'pglite',
     name: 'ts-svelte-drawing-persist-pglite',
+  },
+  {
+    language: 'typescript',
+    framework: 'svelte',
+    appType: 'drawing',
+    persistenceType: 'tinyjoin',
+    name: 'ts-svelte-drawing-persist-tinyjoin',
   },
 ];
 
